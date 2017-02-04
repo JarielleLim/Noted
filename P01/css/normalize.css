@@ -1,0 +1,56 @@
+/*normalize*/
+
+h1{
+	font-family: "moonbold", arial, sans-serif;
+	font-size: 5em;
+	color: #2E2633;
+}
+
+h2{
+	font-family: "moonbold", arial, sans-serif;
+	font-size: 1.57rem;
+	color: #2E2633;
+}
+
+h3{
+	font-family: "moonlight", arial, sans-serif;
+	color: #2E2633;
+}
+
+body{
+	font-family: "open_sansregular", arial, sans-serif;
+	font-size: 1em;
+	background: rgb(245,245,245);
+	color: rgb(100,100,100);
+	letter-spacing: 0.3px;
+	line-height: 1.7em;
+}
+
+section{
+    padding:2rem;
+	padding-top: 5rem;
+}
+
+code{
+    background: #D8D8D8;
+    padding: 0.5em;
+}
+
+.seg{
+	display: inline-block;
+	padding:2em;
+	width:50%;
+	margin-bottom: 2em;
+	background: #ECD078;
+}
+
+
+.citations a{
+	display: block;
+    font-family: "open_sansregular", arial, sans-serif;
+	font-size: 1em;
+    color: #552437;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    text-decoration: none;
+}

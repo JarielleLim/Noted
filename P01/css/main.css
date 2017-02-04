@@ -1,0 +1,152 @@
+/*main css*/
+
+
+
+/*/~~~~~~~~~~~~~~~~~~~*/
+
+.main-nav ul {
+    list-style-type: none;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    float: left;
+    padding: 1em;
+    display: block;
+    color: #552437;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    text-decoration: none;
+}
+
+.main-nav a:hover, a:focus {
+    display: block;
+    color: #C22945;
+    text-decoration: none;
+}
+
+/*/~~~~~~~~~~~~~~~~~~~*/
+
+.button-nav{
+    display: inline-block;
+    color: #552437;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "moonbold", arial, sans-serif;
+}
+
+
+.button-nav:hover, .button-nav:focus {
+    display: block;
+    color: #C22945;
+    text-decoration: none;
+}
+
+/*/~~~~~~~~~~~~~~~~~~~*/
+
+.text-link {
+    color: #552437;
+    text-decoration: underline;
+}
+
+.text-link:hover, .text-link:focus {
+    color: #C22945;
+    text-decoration: underline;
+}
+
+
+/*/~~~~~~~~~~~~~~~~~~~*/
+
+.button-default{
+    display:inline-block;
+    padding: 2em 2em;
+    background: #552437;
+    color:white;
+    text-decoration: none;
+    border-radius: 1em;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    font-family: "moonbold", arial, sans-serif;
+}
+
+.button-default:hover, .button-default:focus {
+  display:inline-block;
+    color:white;
+    text-decoration: none;
+    padding: 2em 2em;
+    background: #C22945;
+}
+
+.button-default:active{
+  display:inline-block;
+    padding: 2em 2em;
+    background: #552437;
+    color:white;
+    text-decoration: none;
+    border-radius: 1em;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    font-family: "moonbold", arial, sans-serif;
+}
+
+/*/~~~~~~~~~~~~~~~~~~~*/
+
+input[type="text"].text-input {
+  
+  padding:0.5em 0.5em;
+  color:#555;
+  background-color: #E6E6E6;
+  font-size: 18px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+/*/~~~~~~~~~~~~~~~~~~~*/
+
+.bulletlist {
+    display: block;
+    padding: 1.2rem;
+    color: #552437;
+    list-style: circle;
+}
+
+.bulletlist li{
+    padding-bottom: 2em;
+}
+
+/*/~~~~~~~~~~~~~~~~~~~*/
+
+.numberlist{
+    padding: 1.2rem;
+    color: #552437;
+}
+
+.numberlist li{
+     padding-bottom: 2rem;
+}
+
+/*/~~~~~~~~~~~~~~~~~~~*/
+
+.product{
+    overflow: hidden;
+    display:inline-block;
+}
+
+.product img{
+
+  height: 400px;
+    width: 400px;
+}
+
+.name {
+  text-align: center;
+}
