@@ -1,0 +1,67 @@
+/*~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~*/
+
+.logospace{
+	text-align: center;
+}
+
+.main-nav{
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-direction: row;
+    flex-direction: row;
+
+
+	background-color:#552437;
+
+	 -webkit-justify-content: center;
+    justify-content: center;
+
+    -webkit-align-items: stretch;
+    align-items: stretch;
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+
+    list-style: none;
+    margin: 0; 
+
+}
+
+.nav-item{
+	text-decoration: none;
+  display: block;
+ padding-left: 1em;
+  color: white;
+  display: block;
+  background-color:#552437;
+}
+
+a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 1em;
+
+}
+
+.nav-item a:hover{
+ background: black;
+
+}
+
+.nav-item.cart{ 
+   margin-left: auto;
+}
+
+.nav-item.logo img{
+	max-width: 80px;
+	max-height: auto;
+}
+
+.nav-item.logo a:hover{
+ background: none;
+
+}
