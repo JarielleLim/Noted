@@ -1,5 +1,16 @@
 /*~~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~*
+
+COLORS
+
+light grey: #EAEAEA
+dark purple: #2E2633
+magenta: #542437
+light yellow: #F7E6B5
+dark yellow: #ECD078
+pink: #C02943
+
+/
 /*~~~~~~~~~~~~~~~~~~*/
 
 .logospace{
@@ -27,6 +38,8 @@
 
     list-style: none;
     margin: 0; 
+
+    font-family: "moonbold", arial, sans-serif;
 
 }
 
