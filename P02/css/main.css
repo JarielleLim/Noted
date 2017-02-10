@@ -18,55 +18,79 @@ pink: #C02943
 }
 
 .main-nav{
+
 	display: -webkit-flex;
 	display: flex;
 
 	-webkit-flex-direction: row;
     flex-direction: row;
 
-
-	background-color:#552437;
-
-	 -webkit-justify-content: center;
-    justify-content: center;
-
-    -webkit-align-items: stretch;
-    align-items: stretch;
+    -webkit-align-items: center;
+    align-items: center;
 
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
 
     list-style: none;
-    margin: 0; 
 
     font-family: "moonbold", arial, sans-serif;
 
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    padding-bottom: 0.3em;
+
+}
+
+.banner img{
+	position: relative;
+	max-width:100%;
+	height: auto;
+	padding: 0px;
+	margin:0px;
 }
 
 .nav-item{
 	text-decoration: none;
-  display: block;
- padding-left: 1em;
-  color: white;
-  display: block;
-  background-color:#552437;
+    display: block;
+ 	padding-left: 1em;
+    color: white;
 }
 
 a{
 	display: block;
 	text-decoration: none;
-	color: white;
-	padding: 1em;
+	color: #552437;
+	padding-left: 1em;
+	padding-right: 1em;
 
 }
 
 .nav-item a:hover{
- background: black;
-
+ 	border-bottom: 2px solid #C02943;
 }
 
-.nav-item.cart{ 
+/*.nav-item.cart{ 
    margin-left: auto;
+}
+*/
+
+.cart{
+	margin-top: 0px;
+}
+
+.cart img{
+	float: right;
+	max-width: 50px;
+	margin-top: 0px;
+	margin-right: 2em;
+	padding: 0px;
+	clear: left;
+}
+
+
+.nav-item.cart img{ 
+   max-width: 30px;
 }
 
 .nav-item.logo img{
@@ -74,7 +98,13 @@ a{
 	max-height: auto;
 }
 
+.nav-item.logo{
+	font-family: "moonbold", arial, sans-serif;
+	margin: 0px;
+}
+
 .nav-item.logo a:hover{
  background: none;
+ border-bottom: none;
 
 }
