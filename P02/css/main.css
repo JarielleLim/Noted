@@ -108,3 +108,31 @@ a{
  border-bottom: none;
 
 }
+
+.product {
+  display: inline-block;
+}
+.product img {
+  width: 300px;
+  height: 300px;
+}
+
+.product:hover, .product:focus {
+  color: #6B4C74;
+}
+
+.product-name {
+  text-align: center;
+  margin-bottom: 0;
+  font-family: "open_sansbold", arial, sans-serif;
+}
+
+.product-price {
+  margin-top: 0.25rem;
+  text-align: center;
+  font-family: "open_sansregular", arial, sans-serif;
+}
+
+.product-price:hover, .product-price:focus {
+  color: #6B4C74;
+}
