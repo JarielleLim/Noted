@@ -1,0 +1,36 @@
+/* 
+Anshula Dekate - Week 3 Lab Code task
+Citations: 
+Made use of in lecture tutorial 
+*/
+
+* {
+	box-sizing; border-box;
+}
+
+[class^='grid-col-'] {
+	float: left;
+}
+
+.product-container .grid-col-1of3 {
+	height: 400px;
+}
+
+/* when the width is more than 30, then make the colums stack*/
+.grid-col-1of3 {
+	width: 100%;
+}
+
+/* when the width is more than 30, then make the columns inline*/
+@media (min-width: 43em) {
+	.grid-col-1of3 {
+		width: 33%;
+	}	
+}
+
+/*clearing the float*/
+.product-container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
