@@ -34,7 +34,20 @@ h2{
   background:white;
 }
 
-.main-nav{
+.nav-item.logo{
+	z-index: 9999;
+	font-family: "moonbold", arial, sans-serif;
+	margin: 0px;
+	order: 0;
+}
+
+/*@media (max-width: 650px) {
+	.nav-item.logo{
+		order: -1;
+	}
+}*/
+
+.main-nav-flex{
 
 	display: -webkit-flex;
 	display: flex;
@@ -114,15 +127,9 @@ a{
 	max-height: auto;
 }
 
-.nav-item.logo{
-	font-family: "moonbold", arial, sans-serif;
-	margin: 0px;
-}
-
 .nav-item.logo a:hover{
  background: none;
  border-bottom: none;
-
 }
 
 /*FOOTER CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -162,18 +169,83 @@ input[type="text"]:focus {
   outline: none;
 }
 
-/*PRODUCT PAGE CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*FEATURED ITEMS CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+.featured-flex{
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-align-items: center;
+    align-items: center;
+
+	-webkit-justify-content: center;
+    justify-content: center;
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.featured-item{
+	padding: 3em 1em;
+}
+
+.featured-products-title{
+	text-align: center;
+}
+
+
+/*CART CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*CART CSS (slide animation)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/*PRODUCT PAGE CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .product {
 	display: block;
 	margin: auto;
+	filter: white;
 }
 
 .product img {
 	display: block;
+	border-radius: 10px;
 	margin: auto;
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
+
+
 }
 
 .product:hover, .product:focus {
