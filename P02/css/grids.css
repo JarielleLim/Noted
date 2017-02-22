@@ -21,12 +21,21 @@ Made use of in lecture tutorial
 	width: 100%;
 }
 
+
 /* when the width is more than 30, then make the columns inline*/
 @media (min-width: 43em) {
 	.grid-col-1of3 {
 		width: 33%;
 	}	
 }
+
+/*change orientation of logo to top*/
+@media (max-width: 650px) {
+	.nav-item.logo{
+		order: -1;
+	}
+}
+
 
 /*clearing the float*/
 .product-container:after {
