@@ -1,21 +1,28 @@
 /*~~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~~~~~~~~~~*
+/*~~~~~~~~~~~~~~~~~~*/
 
-COLORS
+/*COLORS
 
 light grey: #EAEAEA
 dark purple: #2E2633
 magenta: #542437
 light yellow: #F7E6B5
 dark yellow: #ECD078
-pink: #C02943
+pink: #C02943*/
 
-/
-/* NAV BAR~~~~~~~~~~~~~~~~~~*/
+
+
 body{
 	margin:0px;
 	padding: 0px;
 }
+
+h2{
+	font-family: "moonbold", arial, sans-serif;
+	font-size: 2em;
+}
+
+/* NAV BAR~~~~~~~~~~~~~~~~~*/
 
 .logospace{
 	text-align: center;
@@ -117,8 +124,8 @@ a{
  border-bottom: none;
 
 }
-/*FOOTER CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+/*FOOTER CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .footer{
 	background:#542437;
 }
@@ -129,12 +136,13 @@ form .contact-form{
 }
 
 form .row{
-	padding: 1em;
+	padding: 0.5em;
 }
 
 label{
 	font-family: "moonbold", arial, sans-serif;
 	color: #F7E6B5;
+	font-size: 12px;
 }
 
 input[type="text"] {
