@@ -12,10 +12,21 @@ pink: #C02943
 
 /
 /*~~~~~~~~~~~~~~~~~~*/
+body{
+	margin:0px;
+	padding: 0px;
+}
 
 .logospace{
 	text-align: center;
 }
+
+.header-bar{
+position: absolute;
+margin:0px;
+padding: 0px;
+}
+
 
 .main-nav{
 
@@ -37,8 +48,8 @@ pink: #C02943
 
     -webkit-justify-content: center;
     justify-content: center;
-
-    padding-bottom: 0.3em;
+	margin:0px;
+	padding: 20px;
 
 }
 
@@ -70,28 +81,21 @@ a{
  	border-bottom: 2px solid #C02943;
 }
 
-/*.nav-item.cart{ 
-   margin-left: auto;
-}
-*/
-
 .cart{
 	margin-top: 0px;
 }
 
 .cart img{
 	float: right;
+	position: relative;
 	max-width: 50px;
 	margin-top: 0px;
+	top:0;
 	margin-right: 2em;
 	padding: 0px;
 	clear: left;
 }
 
-
-.nav-item.cart img{ 
-   max-width: 30px;
-}
 
 .nav-item.logo img{
 	max-width: 80px;
