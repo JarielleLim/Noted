@@ -18,7 +18,9 @@
 
 	<div class="header-bar">
 
-		<div class="cart"><a href="cart.html"><img src=images/shopCartPink.png alt="shopping cart"></a></div>
+		<div class="cart">
+		<a href="cart.html"><img src=images/shopCartPink.png alt="shopping cart"></a>
+		</div>
 
 		<nav>
 			<ul class="main-nav">
@@ -30,7 +32,7 @@
 			</ul>
 		</nav>
 
-	<div>
+	</div>
 
 		<div class="banner"><img src=images/testImage.jpg alt="tester"></div>
 
@@ -39,12 +41,28 @@
 			<p>Latest promotions and news slider</p>
 		</section>
 
-		<section id="contact">
-			<p>Contact area</p>
-		</section>
-
 		<section class="footer">
-			<p>Footer area</p>
+
+			<form class="contact-form" action="#" method="POST" enctype="">
+
+			<div class="row">
+			<label for="name">Your name:</label><br />
+			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+			</div>
+
+			<div class="row">
+			<label for="email">Your email:</label><br />
+			<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+			</div>
+
+			<div class="row">
+			<label for="message">Your message:</label><br />
+			<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea><br />
+			</div>
+
+			<input id="submit_button" type="submit" value="Send email" />
+			</form>	
+
 		</section>
 
 	</body>

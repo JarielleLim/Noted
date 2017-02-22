@@ -1,0 +1,2 @@
+fixed nav bar reference: http://sixrevisions.com/css/fixed-navigation-bar/
+contact form reference: https://www.123contactform.com/html-contact-form/

@@ -11,7 +11,7 @@ dark yellow: #ECD078
 pink: #C02943
 
 /
-/*~~~~~~~~~~~~~~~~~~*/
+/* NAV BAR~~~~~~~~~~~~~~~~~~*/
 body{
 	margin:0px;
 	padding: 0px;
@@ -22,11 +22,10 @@ body{
 }
 
 .header-bar{
-position: absolute;
-margin:0px;
-padding: 0px;
-}
 
+  width:100%;
+  background:white;
+}
 
 .main-nav{
 
@@ -82,6 +81,12 @@ a{
 }
 
 .cart{
+	position: fixed;
+	margin:0px;
+	padding: 0px;
+	top: 0;
+  	right: 0;
+  	z-index: 9999;
 	margin-top: 0px;
 }
 
@@ -112,6 +117,44 @@ a{
  border-bottom: none;
 
 }
+/*FOOTER CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.footer{
+	background:#542437;
+}
+
+form .contact-form{
+	float: right;
+	clear: left;
+}
+
+form .row{
+	padding: 1em;
+}
+
+label{
+	font-family: "moonbold", arial, sans-serif;
+	color: #F7E6B5;
+}
+
+input[type="text"] {
+  
+  padding:0.2em 0.5em;
+  color:#555;
+  background-color: #E6E6E6;
+  font-size: 12px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+/*PRODUCT PAGE CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .product {
 	display: block;
