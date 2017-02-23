@@ -37,49 +37,98 @@
 
 	
 		<section id="cart-summary">
-		<h2>Cart</h2>
 
-		<div class="cart-item-display">
-<!-- product 1 -->
-			<div class="cart-flex-item">
+		<div class="cart-title-flex">	
+			
+			<img src="images/shopCartGrey.png" alt="Product"/>
+			<h2>Cart</h2>
 
-				<div id="delete"><img src="images/delete.png" alt="Product"/></div>
+			<ol class="process-list-flex">
+			<li class="process-part"><div class="current">1 summary</div></li>
+			<li class="process-part">2 shipping info</li>
+			<li class="process-part">3 confirmation</li>
+			</ol>
+		</div>
 
-				<div id="like"><img src="images/like.png" alt="Product"/></div>
+			<div class="cart-item-display">
 
-				<div id="image"><img src="images/product1.jpg" alt="Product"/></div>
+	<!-- product 1 -->
+				<div class="cart-flex-item">
 
-				<div id="product-name"><h4>PRODUCT NAME (Plain)</h4></div>
+					<div id="delete"><img src="images/delete.png" alt="Product"/></div>
 
-				<div id="price"><p>$10.99 CAD</p></div>
+					<div id="like"><img src="images/like.png" alt="Product"/></div>
 
+					<div id="image"><img src="images/product1.jpg" alt="Product"/></div>
+
+					<div id="product-name"><h4>PRODUCT NAME (Plain)</h4></div>
+
+					<div id="price"><p>$10.99 CAD</p></div>
+
+				</div>
+
+				<div class="cart-flex-item">
+
+					<div id="delete"><img src="images/delete.png" alt="Product"/></div>
+
+					<div id="like"><img src="images/like.png" alt="Product"/></div>
+
+					<div id="image"><img src="images/product2.jpg" alt="Product"/></div>
+
+					<div id="product-name"><h4>PRODUCT NAME (Plain)</h4></div>
+
+					<div id="price"><p>$10.99 CAD</p></div>
+					
+				</div>
+
+				<div class="cart-flex-item">
+
+					<div id="delete"></div>
+
+					<div id="like"></div>
+
+					<div id="image"></div>
+
+					<div id="product-name"></div>
+
+					<div id="price">				
+						<p>Total: $34.00 CAD</p>
+						<p>Tax: $3.00 CAD</p>
+						<p>Total: $37.00 CAD</p>
+					</div>
+				</div>
+
+		</div>
+
+			<div class="procceed-flex">
+					<a href="cartPurchase.html"><button class="button-default">Procceed &rsaquo; </button></a>
 			</div>
 
-			<div class="cart-flex-item">
-
-				<div id="delete"><img src="images/delete.png" alt="Product"/></div>
-
-				<div id="like"><img src="images/like.png" alt="Product"/></div>
-
-				<div id="image"><img src="images/product2.jpg" alt="Product"/></div>
-
-				<div id="product-name"><h4>PRODUCT NAME (Plain)</h4></div>
-
-				<div id="price"><p>$10.99 CAD</p></div>
-				
-			</div>
-
-			<a href="cartPurchase.html"><button class="button-default">Procceed &rsaquo; </button></a>
-	</div>
 	</section>
 
-		<section id="contact">
-			<p>Contact area</p>
-		</section>
+	<section class="footer">
 
-		<section class="footer">
-			<p>Footer area</p>
-		</section>
+		<form class="contact-form" action="#" method="POST" enctype="">
+
+			<div class="row">
+			<label for="name">Your name:</label><br />
+			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+			</div>
+
+			<div class="row">
+			<label for="email">Your email:</label><br />
+			<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+			</div>
+
+			<div class="row">
+			<label for="message">Your message:</label><br />
+			<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea><br />
+			</div>
+
+			<input id="submit_button" class="button-default" type="submit" value="Send email" />
+		</form>	
+
+	</section>
 
 	</body>
 </html>

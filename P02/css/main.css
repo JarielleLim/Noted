@@ -196,7 +196,7 @@ a{
 
 /*FOOTER CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .footer{
-	background:#542437;
+	background:#2E2633;
 }
 
 form .contact-form{
@@ -314,28 +314,71 @@ input[type="text"]:focus {
 #cart-summary{
 	border-top: 5px solid #EAEAEA;
 	background-color: #F7F7F7;
+	padding-right:2em;
 }
+
+.cart-title-flex{
+	display: flex;
+	flex-direction: row; 
+	align-items:center;
+	margin-top:2em;
+	margin-left:5em;
+}
+
+.cart-title-flex img{
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.process-list-flex{
+	display: flex;
+	flex-direction: row; 
+	list-style: none;
+}
+
+.process-part{
+	font-size: 0.7em;
+	padding-right:3em
+
+}
+
+.current{
+	color:#C02943;
+
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .cart-flex-item{
 	display: flex;
 	flex-direction: row; 
-	flex-flow: center;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	padding: 1em;
 	border-top: 2px solid #EAEAEA;
-
 }
 
+/*~~~~~~~~~~~~~~*/
 .cart-item-display{
-	margin:5em;
+	margin:0em 5em;
 	background-color: white;
 }
 
 .cart-flex-item img{
 	width: 100px; 
 	border-radius: 10px
+}
+
+/*~~~~~~~~~~~~~*/
+#prices{
+	text-align: right;
+	padding-right: 2em;
+	flex-grow: 3;
+}
+
+#filler{
+	flex-grow: 5;
 }
 
 #delete img{
@@ -369,6 +412,22 @@ input[type="text"]:focus {
 #price{
 	flex-grow: 3;
 }
+
+/*~~~~~~~~~~~*/
+
+.procceed-flex{
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 3em;
+
+}
+
+
+
+
 
 /*CART CSS (slide animation)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
