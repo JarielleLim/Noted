@@ -362,15 +362,25 @@ input[type="text"]:focus {
 	border-top: 2px solid #EAEAEA;
 }
 
+.cart-flex-item.total{
+	border-top: none;
+	}
+
 /*~~~~~~~~~~~~~~*/
 .cart-item-display{
 	margin:0em 5em;
 	background-color: white;
 }
 
+.cart-item-display.confirm{
+	padding-top: 4em;
+	min-width: 100%;
+
+}
+
 .cart-flex-item img{
 	width: 100px; 
-	border-radius: 10px
+	border-radius: 10px;
 }
 
 /*~~~~~~~~~~~~~*/
@@ -392,22 +402,50 @@ input[type="text"]:focus {
 #delete{
 	flex-grow: 1;
 	padding-left:2em;
+	max-width: 10%;
 }
 
 #like {
 	flex-grow: 1;
+	max-width: 10%;
 }
 
 #image{
 	flex-grow: 2;
+	max-width: 20%;
 }
 
 #product-name{
 	flex-grow: 7;
+	max-width: 40%;
 }
 
 #price{
 	flex-grow: 3;
+	max-width: 20%;
+}
+
+#total{
+	max-width: 20%;
+	padding-right:1em;
+	text-align: right;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#final-total{
+	max-width: 20%;
+	padding-right:1em;
+	text-align: right;
+	font-size: 1em;
+	font-weight: bold;
+	border-top: 2px solid #EAEAEA;
+}
+
+#final-price{
+	flex-grow: 3;
+	max-width: 20%;
+	border-top: 2px solid #EAEAEA;
 }
 
 /*~~~~~~~~~~~*/
@@ -418,8 +456,7 @@ input[type="text"]:focus {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	padding: 3em;
-
+	padding-bottom: 3em;
 }
 
 /*CART Shipping info~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -433,12 +470,14 @@ input[type="text"]:focus {
 	padding: 1em;
 	padding-bottom: 6em;
 	border: 2px solid #EAEAEA;
-
+	border-top: 20px solid #C02943;
+	margin:2em 0em;
+	background: white;
 }	
+
 
 .cart-container{
 	margin:0em 5em;
-	background-color: white;
 }
 
 .cart-shipping-title{
@@ -446,6 +485,8 @@ input[type="text"]:focus {
 	flex-direction: column; 
 	padding-top: 2em;
 	border-bottom: 2px solid #F7E6B5;
+	font-family: "moonbold", arial, sans-serif;
+	letter-spacing: 2px;
 }
 
 .cart-shipping-flex label{
@@ -453,7 +494,19 @@ input[type="text"]:focus {
 	color: #542437;
 	padding:0.5em;
 	padding-top:3em;
+}
 
+.confirmed-info{
+	text-align: center;
+	padding-top:3em;
+}
+
+.confirmed-info h3{
+
+}
+
+.confirmed-info p{
+	margin: 0.4em;
 }
 
 /*CART CSS (slide animation)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
