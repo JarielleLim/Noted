@@ -10,41 +10,183 @@
 		<title>Noted</title>
 		<link rel="stylesheet" href="css/fonts.css"> 
 		<link rel="stylesheet" href="css/main.css"> 
-
+		<link rel="stylesheet" href="css/grids.css"> 
+	
 
 	</head>
 
 	<body>
-<div class="header-bar">
+
+	<div class="header-bar">
 
 		<div class="cart">
 		<a href="cart.html"><img src=images/shopCartPink.png alt="shopping cart"></a>
 		</div>
 
 		<nav>
-			<ul class="main-nav">
-				<li class="nav-item dropdown"><a href="products.html">Notebooks</a></li>
-				<li class="nav-item 1"><a href="about.html">About</a></li>
+			<ul class="main-nav-flex">
+				<li class="nav-item"><a href="products.html">Notebooks</a></li>
+				<li class="nav-item"><a href="about.html">About</a></hn hhli>
 				<li class="nav-item logo"><a href="index.html"><img src=images/notedLogo.png alt="logo"></a></li>
-				<li class="nav-item 2"><a href="#contact">Contact</a></li>
-				<li class="nav-item 2"><a href="faq.html">FAQ</a></li>
+				<li class="nav-item"><a href="#contact">Contact</a></li>
+				<li class="nav-item"><a href="faq.html">FAQ</a></li>
 			</ul>
 		</nav>
 
 	</div>
 
-		<section class="purchase-finish">
-			<p>Display the successful message of buying the product and confirmation page</p>
-			<a href="feedback.html">Provide feedback button</a>
-		</section>
+	
+		<section id="cart-summary">
 
-		<section id="contact">
-			<p>Contact area</p>
-		</section>
+		<div class="cart-title-flex">	
+			
+			<img src="images/shopCartGrey.png" alt="Product"/>
+			<h2>Cart</h2>
 
-		<section class="footer">
-			<p>Footer area</p>
-		</section>
+			<ol class="process-list-flex">
+			<li class="process-part"><a href="cart.html">1 summary</a></li>
+			<li class="process-part"><a href="cartShipping.html">2 shipping info</a></li>
+			<li class="process-part"><div class="current">3 confirmation</div></li>
+			</ol>
+		</div>
+
+<!-- SHIPPING INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+			<div class="cart-container">
+
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+
+				<div class="cart-shipping-flex">
+
+				<div class="cart-shipping-title"><h3>CART ITEMS</h3></div>
+
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+			<div class="cart-item-display confirm">
+
+	<!-- product 1 -->
+				<div class="cart-flex-item">
+
+					<div id="delete"><img src="images/delete.png" alt="Product"/></div>
+
+					<div id="like"><img src="images/like.png" alt="Product"/></div>
+
+					<div id="image"><img src="images/product1.jpg" alt="Product"/></div>
+
+					<div id="product-name"><h4>PRODUCT NAME (Plain)</h4></div>
+
+					<div id="price"><p>$14.00 CAD</p></div>
+
+				</div>
+
+				<div class="cart-flex-item">
+
+					<div id="delete"><img src="images/delete.png" alt="Product"/></div>
+
+					<div id="like"><img src="images/like.png" alt="Product"/></div>
+
+					<div id="image"><img src="images/product2.jpg" alt="Product"/></div>
+
+					<div id="product-name"><h4>PRODUCT NAME (Plain)</h4></div>
+
+					<div id="price"><p>$10.00 CAD</p></div>
+					
+				</div>
+
+				<div class="cart-flex-item">
+
+					<div id="delete"> </div>
+
+					<div id="like"></div>
+
+					<div id="image"></div>
+
+					<div id="product-name"></div>
+
+					<div id="total">
+					<p>Before Tax: </p>
+					<p> Tax: </p>
+					</div>
+
+					<div id="price">				
+						<p>$24.00 CAD</p>
+						<p>$30.00 CAD</p>
+					</div>
+				</div>
+
+				<div class="cart-flex-item total">
+
+					<div id="delete"> </div>
+
+					<div id="like"></div>
+
+					<div id="image"></div>
+
+					<div id="product-name"></div>
+
+					<div id="final-total">
+						<p>Total: </p>
+					</div>
+
+					<div id="final-price">				
+						<p>$27.00 CAD</p>
+					</div>
+				</div>			
+			</div>
+		</div>
+
+<!-- ~~~PAYMENT INFO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<div class="cart-shipping-flex">
+					<div class="cart-shipping-title"><h3>Payment &amp; Shipping</h3></div>
+
+					<div class="confirmed-info">
+						<h3>Shipping Address</h3>
+						<p>17966 32a ave</p>
+						<p>Canada, BC</p>
+					</div>
+
+					<div class="confirmed-info">
+						<h3>Payment</h3>
+						<p>Mastercard</p>
+						<p>1882 9399 0101 7794</p>
+						<p>EXP: 06/17</p>
+					</div>
+				</div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+			</div>
+
+			<div class="procceed-flex">
+					<a href="cartConfirm.html"><button class="button-default">Purchase &rsaquo; </button></a>
+			</div>
+
+	</section>
+
+<!-- ~~~~FOOTER AREA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<section class="footer">
+
+		<form class="contact-form" action="#" method="POST" enctype="">
+
+			<div class="row">
+			<label for="name">Your name:</label><br />
+			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+			</div>
+
+			<div class="row">
+			<label for="email">Your email:</label><br />
+			<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+			</div>
+
+			<div class="row">
+			<label for="message">Your message:</label><br />
+			<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea><br />
+			</div>
+
+			<input id="submit_button" class="button-default" type="submit" value="Send email" />
+		</form>	
+
+	</section>
 
 	</body>
 </html>
