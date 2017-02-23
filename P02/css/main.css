@@ -47,6 +47,8 @@ pink: #C02943*/
 body{
 	margin:0px;
 	padding: 0px;
+	font-family: "open_sansregular", arial, sans-serif;
+	font-size: 1em;
 }
 
 h2{
@@ -227,15 +229,55 @@ input[type="text"]:focus {
 }
 
 .featured-item{
-	padding: 3em 1em;
+	padding: 0em 2em 5em 2em;
 }
 
-.featured-item img{
-	border-radius: 5px;
+.featured-prod {
+	border-radius: 1em;
+	opacity: 1;
+  	display: block;
+	width: 280px;
+	height: auto;
+	padding: 0em 2em 0em 2em;
+	opacity: 1;
+	transition: .5s ease;
+  	backface-visibility: hidden;
 }
+
+.detail-text {
+  transition: .2s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(115%, -220%);
+  -ms-transform: translate(160%, -160%)
+}
+
+.details:hover .featured-prod{
+	opacity: 0.3;
+}
+
+.details:hover .detail-text {
+  opacity: 1;
+}
+
+.detail-heading{
+	 font-family: "moonlight", arial, sans-serif;
+	 font-size: 1em;
+	 letter-spacing: 2px;
+	 color: #F7E6B5;
+	 background: #2E2633;
+	 padding:.5em 1em ;
+	 border-radius: 1em;
+}
+
 .featured-products-title{
 	text-align: center;
+	padding: 1em;
+	color: #2E2633;
 }
+
+
+
 
 
 /*CART CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
