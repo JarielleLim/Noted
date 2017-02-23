@@ -384,3 +384,48 @@ input[type="text"]:focus {
 .product-price:hover, .product-price:focus {
 	color: #6B4C74;
 }
+
+/* -------------------- FAQ Page ----------------- */
+
+#faq-top h1 {
+	text-align: center;
+}
+
+.faq-list li {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: "moonlight", arial, sans-serif;
+	margin-left: 20rem;
+}
+
+.faq-listq:hover, .faq-listq:focus {
+	text-decoration: underline;
+}
+
+.faq-answers h2 {
+	padding-bottom: 0.5rem;
+	font-size: 1rem;
+	font-family: "moonbold", arial, sans-serif;
+	max-width: 45rem;
+	margin-left: 20rem;
+}
+
+.faq-answers p {
+	font-family: "open_sansregular", arial, sans-serif;	
+	max-width: 45rem;
+	margin-left: 23rem;
+}
+
+.faq-answers a {
+	font-family: "open_sansregular", arial, sans-serif;	
+	font-size: 0.75rem;
+	text-align: right;
+	margin-right: 15rem;
+	padding-bottom: 2rem;
+}
+
+h1 {
+	font-family: "moonbold", arial, sans-serif;
+}
