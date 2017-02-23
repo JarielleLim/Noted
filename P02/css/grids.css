@@ -43,10 +43,22 @@ Made use of in lecture tutorial
 		float: none;
 	}
 
+	.welcome-banner-text{
+		top:30%;
+		font-size: 50%;
+	}
+
+
 }
 
 
-@media (max-width:100px) {
+@media (max-width: 500px) {
+	.welcome-banner-text{
+		top:30%;
+	}
+}
+
+@media (max-width:400px) {
 	.nav-item{
 		padding: 1.5em;
 	}
@@ -55,6 +67,11 @@ Made use of in lecture tutorial
 		-webkit-flex-direction: column;
    		flex-direction: column;
 	}	
+
+	.welcome-banner-text{
+		top:50%;
+		font-size: 30%;
+	}
 }
 
 /*clearing the float*/
