@@ -44,8 +44,8 @@
 			<h2>Cart</h2>
 
 			<ol class="process-list-flex">
-			<li class="process-part"><div class="current">1 summary</div></li>
-			<li class="process-part">2 shipping info</li>
+			<li class="process-part"><a href="cart.html">1 summary</a></li>
+			<li class="process-part"><div class="current">2 shipping info</div></li>
 			<li class="process-part">3 confirmation</li>
 			</ol>
 		</div>
@@ -53,17 +53,20 @@
 			<div class="cart-item-display">
 
 	<!-- product 1 -->
+				
+
+				<h3>Shipping Address</h3>
+	
 				<div class="cart-flex-item">
+					<div id="address">
+						<label for="address">Address:</label><br />
+						<input id="address" class="input" name="address" type="text" value="" size="30" />
+					</div>
 
-					<div id="delete"><img src="images/delete.png" alt="Product"/></div>
-
-					<div id="like"><img src="images/like.png" alt="Product"/></div>
-
-					<div id="image"><img src="images/product1.jpg" alt="Product"/></div>
-
-					<div id="product-name"><h4>PRODUCT NAME (Plain)</h4></div>
-
-					<div id="price"><p>$10.99 CAD</p></div>
+					<div id="country">
+						<label for="country">Country:</label><br />
+						<input id="country" class="input" name="email" type="text" value="" size="30" />
+					</div>
 
 				</div>
 
@@ -101,7 +104,7 @@
 		</div>
 
 			<div class="procceed-flex">
-					<a href="cartShipping.html"><button class="button-default">Procceed &rsaquo; </button></a>
+					<a href="cartPurchase.html"><button class="button-default">Procceed &rsaquo; </button></a>
 			</div>
 
 	</section>

@@ -62,6 +62,12 @@ h2{
 	font-size: 2em;
 }
 
+
+a{
+	text-decoration: none;
+	color: #2E2633;
+}
+
 /* NAV BAR~~~~~~~~~~~~~~~~~*/
 
 .logospace{
@@ -149,13 +155,12 @@ text-align: center;
     color: white;
 }
 
-a{
+.nav-item a{
 	display: block;
 	text-decoration: none;
 	color: #552437;
 	padding-left: 1em;
 	padding-right: 1em;
-
 }
 
 .nav-item a:hover{
@@ -190,8 +195,8 @@ a{
 }
 
 .nav-item.logo a:hover{
- background: none;
- border-bottom: none;
+	 background: none;
+	 border-bottom: none;
 }
 
 /*FOOTER CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -338,13 +343,12 @@ input[type="text"]:focus {
 
 .process-part{
 	font-size: 0.7em;
+	color: #C9C9C9;
 	padding-right:3em
-
 }
 
 .current{
 	color:#C02943;
-
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -389,7 +393,6 @@ input[type="text"]:focus {
 #like img{
 	width:20px;
 	height:auto;
-	
 }
 
 #delete{
@@ -424,9 +427,6 @@ input[type="text"]:focus {
 	padding: 3em;
 
 }
-
-
-
 
 
 /*CART CSS (slide animation)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
