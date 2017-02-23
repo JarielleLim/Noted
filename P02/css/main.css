@@ -192,6 +192,9 @@ input[type="text"]:focus {
 	padding: 3em 1em;
 }
 
+.featured-item img{
+	border-radius: 5px;
+}
 .featured-products-title{
 	text-align: center;
 }
@@ -199,37 +202,59 @@ input[type="text"]:focus {
 
 /*CART CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+.button-nav{
+    display: inline-block;
+    color: #552437;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "moonbold", arial, sans-serif;
+}
+
+
+.button-nav:hover, .button-nav:focus {
+    display: block;
+    color: #C22945;
+    text-decoration: none;
+}
+
+.cart-dropdown{
+	animation-duration: 3s;
+  animation-name: slideInRight;
+}
+
 /*CART CSS (slide animation)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
 }
 
-@-webkit-keyframes slideInUp {
-  from {
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes slideInUp {
-  from {
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
 
 /*PRODUCT PAGE CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .product {
@@ -242,8 +267,8 @@ input[type="text"]:focus {
 	display: block;
 	border-radius: 10px;
 	margin: auto;
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 
 
 }
