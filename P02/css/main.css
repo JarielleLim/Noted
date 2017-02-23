@@ -11,6 +11,38 @@ dark yellow: #ECD078
 pink: #C02943*/
 
 
+.button-default{
+    display:inline-block;
+    padding: 2em 2em;
+    background: #552437;
+    color:white;
+    text-decoration: none;
+    border-radius: 1em;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    font-family: "moonbold", arial, sans-serif;
+}
+
+.button-default:hover, .button-default:focus {
+  display:inline-block;
+    color:white;
+    text-decoration: none;
+    padding: 2em 2em;
+    background: #C22945;
+}
+
+.button-default:active{
+  display:inline-block;
+    padding: 2em 2em;
+    background: #552437;
+    color:white;
+    text-decoration: none;
+    border-radius: 1em;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    font-family: "moonbold", arial, sans-serif;
+}
+
 
 body{
 	margin:0px;
@@ -104,7 +136,7 @@ a{
 	position: fixed;
 	margin:0px;
 	padding: 0px;
-	top: 0;
+	top: 0px;
   	right: 0;
   	z-index: 9999;
 	margin-top: 0px;
@@ -169,6 +201,12 @@ input[type="text"]:focus {
   outline: none;
 }
 
+.newsletter{
+	background-color: #EAEAEA;
+	padding: 5em;
+	text-align: center;
+}
+
 /*FEATURED ITEMS CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .featured-flex{
@@ -202,57 +240,42 @@ input[type="text"]:focus {
 
 /*CART CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-.button-nav{
-    display: inline-block;
-    color: #552437;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: "moonbold", arial, sans-serif;
-}
-
-
-.button-nav:hover, .button-nav:focus {
-    display: block;
-    color: #C22945;
-    text-decoration: none;
-}
-
-.cart-dropdown{
+/*.cart{
 	animation-duration: 3s;
-  animation-name: slideInRight;
-}
+  animation-name: slideOutDown;
+}*/
 
 /*CART CSS (slide animation)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-@-webkit-keyframes slideInRight {
+@-webkit-keyframes slideOutDown {
   from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-}
-
-@keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
 
   to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes slideOutDown {
+  from {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
 }
 
-.slideInRight {
-  -webkit-animation-name: slideInRight;
-  animation-name: slideInRight;
+.slideOutDown {
+  -webkit-animation-name: slideOutDown;
+  animation-name: slideOutDown;
 }
 
 
