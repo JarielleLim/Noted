@@ -26,7 +26,7 @@
 		<nav>
 			<ul class="main-nav-flex">
 				<li class="nav-item"><a href="products.html">Notebooks</a></li>
-				<li class="nav-item"><a href="about.html">About</a></li>
+				<li class="nav-item"><a href="about.html">About</a></hn hhli>
 				<li class="nav-item logo"><a href="index.html"><img src=images/notedLogo.png alt="logo"></a></li>
 				<li class="nav-item"><a href="#contact">Contact</a></li>
 				<li class="nav-item"><a href="faq.html">FAQ</a></li>
@@ -50,58 +50,95 @@
 			</ol>
 		</div>
 
-			<div class="cart-item-display">
+<!-- SHIPPING INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-	<!-- product 1 -->
-				
+			<div class="cart-container">
 
-				<h3>Shipping Address</h3>
-	
-				<div class="cart-flex-item">
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+
+				<div class="cart-shipping-flex">
+				<div class="cart-shipping-title"><h3>1. SHIPPING INFO</h3></div>
+
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+					<label for="address">Address:</label>
 					<div id="address">
-						<label for="address">Address:</label><br />
 						<input id="address" class="input" name="address" type="text" value="" size="30" />
 					</div>
 
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+					<label for="country">Country:</label>
+
 					<div id="country">
-						<label for="country">Country:</label><br />
-						<input id="country" class="input" name="email" type="text" value="" size="30" />
+						
+						<select>
+							<option value="CAN">Canada</option>
+							<option value="USA">United States</option>
+						</select>
+
 					</div>
 
-				</div>
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-				<div class="cart-flex-item">
+					<label for="State_Province">State/Province:</label>
 
-					<div id="delete"><img src="images/delete.png" alt="Product"/></div>
-
-					<div id="like"><img src="images/like.png" alt="Product"/></div>
-
-					<div id="image"><img src="images/product2.jpg" alt="Product"/></div>
-
-					<div id="product-name"><h4>PRODUCT NAME (Plain)</h4></div>
-
-					<div id="price"><p>$10.99 CAD</p></div>
-					
-				</div>
-
-				<div class="cart-flex-item">
-
-					<div id="delete"></div>
-
-					<div id="like"></div>
-
-					<div id="image"></div>
-
-					<div id="product-name"></div>
-
-					<div id="price">				
-						<p>Total: $34.00 CAD</p>
-						<p>Tax: $3.00 CAD</p>
-						<p>Total: $37.00 CAD</p>
+					<div id="State_Province">
+							<select>
+								<option value="AB">Alberta</option>
+								<option value="BC">British Columbia</option>
+								<option value="MB">Manitoba</option>
+								<option value="NB">New Brunswick</option>
+								<option value="NL">Newfoundland and Labrador</option>
+								<option value="NS">Nova Scotia</option>
+								<option value="ON">Ontario</option>
+								<option value="PE">Prince Edward Island</option>
+								<option value="QC">Quebec</option>
+								<option value="SK">Saskatchewan</option>
+								<option value="NT">Northwest Territories</option>
+								<option value="NU">Nunavut</option>
+								<option value="YT">Yukon</option>
+							</select>
 					</div>
 				</div>
 
-		</div>
+<!-- ~~~PAYMENT INFO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<div class="cart-shipping-flex">
+					<div class="cart-shipping-title"><h3>2. PAYMENT INFO</h3></div>
+
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+					<label for="card-type">card type:</label>
+
+					<div id="card-type">
+							<select>
+								<option value="VIS">Visa</option>
+								<option value="MC">Mastercard</option>
+								<option value="PP">Paypal</option>
+							</select>
+					</div>
+
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+					<label for="card-number">Card Number:</label>
+					<div id="card-number">
+						<input id="card-num" class="input" name="card-number" type="text" value="" size="16" />
+					</div>
+
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+					<label for="exp-date">Expiry Date:</label>
+					<div id="exp-date">
+						<input id="exp-date" class="input" name="exp-date" type="text" value="" size="5" />
+					</div>
+
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+				</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+			</div>
 
 			<div class="procceed-flex">
 					<a href="cartPurchase.html"><button class="button-default">Procceed &rsaquo; </button></a>
@@ -109,6 +146,7 @@
 
 	</section>
 
+<!-- ~~~~FOOTER AREA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<section class="footer">
 
 		<form class="contact-form" action="#" method="POST" enctype="">
