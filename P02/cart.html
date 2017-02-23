@@ -10,47 +10,56 @@
 		<title>Noted</title>
 		<link rel="stylesheet" href="css/fonts.css"> 
 		<link rel="stylesheet" href="css/main.css"> 
-
+		<link rel="stylesheet" href="css/grids.css"> 
+	
 
 	</head>
 
 	<body>
 
-		<div class="header-bar">
+	<div class="header-bar">
 
 		<div class="cart">
 		<a href="cart.html"><img src=images/shopCartPink.png alt="shopping cart"></a>
 		</div>
 
 		<nav>
-			<ul class="main-nav">
-				<li class="nav-item dropdown"><a href="products.html">Notebooks</a></li>
-				<li class="nav-item 1"><a href="about.html">About</a></li>
+			<ul class="main-nav-flex">
+				<li class="nav-item"><a href="products.html">Notebooks</a></li>
+				<li class="nav-item"><a href="about.html">About</a></li>
 				<li class="nav-item logo"><a href="index.html"><img src=images/notedLogo.png alt="logo"></a></li>
-				<li class="nav-item 2"><a href="#contact">Contact</a></li>
-				<li class="nav-item 2"><a href="faq.html">FAQ</a></li>
+				<li class="nav-item"><a href="#contact">Contact</a></li>
+				<li class="nav-item"><a href="faq.html">FAQ</a></li>
 			</ul>
 		</nav>
 
 	</div>
+
 	
-		<div class="cart-dropdown">
+		<section id="cart-summary">
 		<h3>Cart</h3>
 
-			<div class="featured-item">
-				<img src="images/product1.jpg" alt="Product"/>
-				<h4 class="product-name">PRODUCT NAME (Plain)</h4>
-				<p class="product-price">$10.99 CAD</p>
+<!-- product 1 -->
+			<div class="cart-flex">
+
+				<div id="image"><img src="images/product1.jpg" alt="Product"/></div>
+
+				<div id="product-name"><h4>PRODUCT NAME (Plain)</h4></div>
+
+				<div id="price"><p>$10.99 CAD</p></div>
+
 			</div>
 
-			<div class="featured-item">
-				<img src="images/product2.jpg" alt="Product"/>
-				<h4 class="product-name">PRODUCT NAME (Plain)</h4>
-				<p class="product-price">$10.99 CAD</p>
+			<div class="cart-flex">
+				<div id="image"><img src="images/product2.jpg" alt="Product"/></div>
+
+				<div id="product-name"><h4>PRODUCT NAME (Plain)</h4></div>
+
+				<div id="price"><p>$10.99 CAD</p></div>
+				
 			</div>
 
-			<button></button>
-
+			<a href="cartPurchase.html"><button class="button-default">Procceed</button></a>
 	</div>
 
 		<section id="contact">

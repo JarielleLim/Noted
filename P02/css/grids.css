@@ -34,8 +34,28 @@ Made use of in lecture tutorial
 	.nav-item.logo{
 		order: -1;
 	}
+
+	.nav-item{
+		padding: 1.5em;
+	}
+
+	.cart{
+		float: none;
+	}
+
 }
 
+
+@media (max-width:100px) {
+	.nav-item{
+		padding: 1.5em;
+	}
+
+	.main-nav-flex{
+		-webkit-flex-direction: column;
+   		flex-direction: column;
+	}	
+}
 
 /*clearing the float*/
 .product-container:after {
