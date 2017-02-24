@@ -123,7 +123,7 @@ a{
 
 .banner{
 	position: relative;
-	max-width:100%;
+	min-width:100%;
 	height: auto;
 	padding: 0px;
 	margin:0px;
@@ -318,7 +318,6 @@ input[type="text"]:focus {
 #cart-summary{
 	border-top: 5px solid #EAEAEA;
 	background-color: #F7F7F7;
-	padding-right:2em;
 }
 
 .cart-title-flex{
@@ -502,11 +501,20 @@ input[type="text"]:focus {
 }
 
 .confirmed-info h3{
-
+	color:#542437;
 }
 
 .confirmed-info p{
 	margin: 0.4em;
+}
+
+.thanks {
+	text-align: center;
+}
+
+.thanks img{
+	min-width:100px;
+	padding-top:2em;
 }
 
 /*CART CSS (slide animation)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
