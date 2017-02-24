@@ -43,6 +43,10 @@ pink: #C02943*/
     font-family: "moonbold", arial, sans-serif;
 }
 
+.container{
+	border-top: 5px solid #EAEAEA;
+	background-color: #F7F7F7;
+}
 
 body{
 	margin:0px;
@@ -314,11 +318,6 @@ input[type="text"]:focus {
 	animation-duration: 3s;
   animation-name: slideOutDown;
 }*/
-
-#cart-summary{
-	border-top: 5px solid #EAEAEA;
-	background-color: #F7F7F7;
-}
 
 .cart-title-flex{
 	display: flex;
