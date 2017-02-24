@@ -154,7 +154,7 @@ a{
 .nav-item{
 	text-decoration: none;
     display: block;
- 	padding-left: 1em;
+ 	padding: 0.5em;
     color: white;
 }
 
@@ -288,6 +288,14 @@ input[type="text"]:focus {
   -ms-transform: translate(115%, -220%)
 }
 
+.detail-text2 {
+  transition: .2s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(115%, -220%);
+  -ms-transform: translate(115%, -220%)
+}
+
 .details:hover .featured-prod{
 	opacity: 0.3;
 }
@@ -314,10 +322,6 @@ input[type="text"]:focus {
 
 /*CART CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/*.cart{
-	animation-duration: 3s;
-  animation-name: slideOutDown;
-}*/
 
 .cart-title-flex{
 	display: flex;
@@ -516,40 +520,6 @@ input[type="text"]:focus {
 	padding-top:2em;
 }
 
-/*CART CSS (slide animation)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-@-webkit-keyframes slideOutDown {
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-    visibility: hidden;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-}
-
-@keyframes slideOutDown {
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-    visibility: hidden;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-}
-
-.slideOutDown {
-  -webkit-animation-name: slideOutDown;
-  animation-name: slideOutDown;
-}
-
-
 /*PRODUCT PAGE CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .product {
 	display: block;
@@ -629,4 +599,39 @@ input[type="text"]:focus {
 
 h1 {
 	font-family: "moonbold", arial, sans-serif;
+}
+
+/* -------------------- about Page ----------------- */
+
+.about{
+	display: flex;
+	-webkit-display: flex;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+	align-items: center;
+	-webkit-align-items: center;
+}
+
+.about-flex-image{
+	max-width: 20em;
+	max-height: auto;
+	flex-grow: 1;
+	padding-top:5em;
+}
+
+.about-flex-text{
+	flex-grow: 3;
+	text-align: center;
+	line-height: 2em;
+
+	padding:8em;
+	padding-top:2em;
 }
