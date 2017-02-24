@@ -311,6 +311,40 @@ input[type="text"]:focus {
   outline: none;
 }
 
+input[type="number"] {
+  
+  padding:0.2em 0.5em;
+  color:#555;
+  background-color: #E6E6E6;
+  font-size: 12px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="number"]:focus {
+  outline: none;
+}
+
+input[type="date"] {
+  
+  padding:0.2em 0.5em;
+  color:#555;
+  background-color: #E6E6E6;
+  font-size: 12px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="date"]:focus {
+  outline: none;
+}
+
 .newsletter{
 	background-color: #EAEAEA;
 	padding: 5em;
