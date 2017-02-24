@@ -6,7 +6,7 @@ letter spacing reference: https://www.w3schools.com/cssref/pr_text_letter-spacin
 shoppingcart UI https://designmodo.com/shopping-cart-ui/
 
 eventspic1 - sketchbook image taken from: https://twistedsifter.files.wordpress.com/2015/01/the-amazing-moleskine-sketchbook-of-kerby-rosanes-2.jpg?w=800&h=600
-
+eventspic2 - notebook image taken from: https://www.pinterest.com/pin/382031980863099008/
 COLORS
 light grey: #EAEAEA
 lighter grey: #F7F7F7
