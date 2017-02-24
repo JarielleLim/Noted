@@ -697,6 +697,7 @@ h1 {
 .events-img img{
 	width: 100%;
 	height: auto;
+	padding-bottom:2em;
 }
 
 .events-content{
@@ -716,6 +717,7 @@ h1 {
 }
 
 .event-date{
+	display: flex;
 	color: #2E2633;
 	opacity: 0.4;
 	font-size: 0.5em;
