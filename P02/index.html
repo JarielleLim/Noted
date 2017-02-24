@@ -104,31 +104,30 @@
 			<button type="button" class="button-default">Join Newsletter</button>
 		</section>
 
-<!-- footer section -->
-		<section id="footer">
+<!-- ~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<section id="footer">
+	
+		<form class="contact-form" action="#" method="POST" enctype="">
+			<h2>Send us an email!</h2>
+			<label for="name">Your name:</label>
+			<div class="row">
+				<input id="name" class="input" name="name" type="text" value="" size="33" />
+			</div>
 
-			<form class="contact-form" action="#" method="POST" enctype="">
-				<h2>Send us an email!</h2>
-				<label for="name">Your name:</label>
-				<div class="row">
-					<input id="name" class="input" name="name" type="text" value="" size="33" />
-				</div>
+			<label for="email">Your email:</label>
+			<div class="row">
+				<input id="email" class="input" name="email" type="text" value="" size="33" />
+			</div>
 
-				<label for="email">Your email:</label>
-				<div class="row">
-					<input id="email" class="input" name="email" type="text" value="" size="33" />
-				</div>
+			<label for="message">Your message:</label>
+			<div class="row">
+				<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea>
+			</div>
 
-				<label for="message">Your message:</label>
-				<div class="row">
-					<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea>
-				</div>
-
-				<input class="button-default email" type="submit" value="Send email" />
-			</form>	
-
-		</section>
-
+			<input class="button-default email" type="submit" value="Send email" />
+		</form>	
+	</section>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	</body>
 </html>
 

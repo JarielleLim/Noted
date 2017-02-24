@@ -2,7 +2,7 @@
 
 <html lang="en">
 
-	<head>
+<head>
 		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
@@ -26,13 +26,12 @@
 		<nav>
 			<ul class="main-nav-flex">
 				<li class="nav-item"><a href="products.html">Notebooks</a></li>
-				<li class="nav-item"><a href="about.html">About</a></hn hhli>
-				<li class="nav-item logo"><a href="index.html"><img src=images/notedLogo.png alt="logo"></a></li>
-				<li class="nav-item"><a href="#contact">Contact</a></li>
+				<li class="nav-item"><a href="about.html">About</a></li>
+				<li class="nav-item logo"><a href="index.html"><img src="images/notedLogo.png" alt="logo"></a></li>
+				<li class="nav-item"><a href="#footer">Contact</a></li>
 				<li class="nav-item"><a href="faq.html">FAQ</a></li>
 			</ul>
 		</nav>
-
 	</div>
 
 	<div class="container">
@@ -164,30 +163,30 @@
 		</section>
 	</div>
 
-<!-- ~~~~FOOTER AREA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<section class="footer">
-
+<!-- ~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<section id="footer">
+	
 		<form class="contact-form" action="#" method="POST" enctype="">
-
+			<h2>Send us an email!</h2>
+			<label for="name">Your name:</label>
 			<div class="row">
-			<label for="name">Your name:</label><br />
-			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+				<input id="name" class="input" name="name" type="text" value="" size="33" />
 			</div>
 
+			<label for="email">Your email:</label>
 			<div class="row">
-			<label for="email">Your email:</label><br />
-			<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+				<input id="email" class="input" name="email" type="text" value="" size="33" />
 			</div>
 
+			<label for="message">Your message:</label>
 			<div class="row">
-			<label for="message">Your message:</label><br />
-			<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea><br />
+				<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea>
 			</div>
 
-			<input id="submit_button" class="button-default" type="submit" value="Send email" />
+			<input class="button-default email" type="submit" value="Send email" />
 		</form>	
-
 	</section>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 	</body>
 </html>

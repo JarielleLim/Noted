@@ -2,7 +2,7 @@
 
 <html lang="en">
 
-	<head>
+<head>
 		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
@@ -28,13 +28,12 @@
 				<li class="nav-item"><a href="products.html">Notebooks</a></li>
 				<li class="nav-item"><a href="about.html">About</a></li>
 				<li class="nav-item logo"><a href="index.html"><img src="images/notedLogo.png" alt="logo"></a></li>
-				<li class="nav-item"><a href="#contact">Contact</a></li>
+				<li class="nav-item"><a href="#footer">Contact</a></li>
 				<li class="nav-item"><a href="faq.html">FAQ</a></li>
 			</ul>
 		</nav>
-
 	</div>
-
+	
 	<div class="container">
 
 		<section class="about">
@@ -86,13 +85,30 @@
 
 	</div>
 
-		<section id="contact">
-			<p>Contact area</p>
-		</section>
+<!-- ~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<section id="footer">
+	
+		<form class="contact-form" action="#" method="POST" enctype="">
+			<h2>Send us an email!</h2>
+			<label for="name">Your name:</label>
+			<div class="row">
+				<input id="name" class="input" name="name" type="text" value="" size="33" />
+			</div>
 
-		<section class="footer">
-			<p>Footer area</p>
-		</section>
+			<label for="email">Your email:</label>
+			<div class="row">
+				<input id="email" class="input" name="email" type="text" value="" size="33" />
+			</div>
+
+			<label for="message">Your message:</label>
+			<div class="row">
+				<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea>
+			</div>
+
+			<input class="button-default email" type="submit" value="Send email" />
+		</form>	
+	</section>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 	</body>
 </html>
