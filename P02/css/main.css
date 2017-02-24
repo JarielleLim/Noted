@@ -20,8 +20,9 @@ pink: #C02943*/
     color:white;
     text-decoration: none;
     border-radius: 1em;
-    -webkit-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
+    -webkit-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    border: none;
     letter-spacing: 2px;
 }
 
@@ -38,14 +39,19 @@ pink: #C02943*/
     color:white;
     text-decoration: none;
     border-radius: 1em;
-    -webkit-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
+    -webkit-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
     font-family: "moonbold", arial, sans-serif;
 }
 
 .container{
 	border-top: 5px solid #EAEAEA;
 	background-color: #F7F7F7;
+}
+
+.email{
+	padding:1em;
+	font-size: 0.6em;
 }
 
 body{
@@ -123,8 +129,8 @@ p{
     -webkit-align-items: center;
     align-items: center;
 
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 
     list-style: none;
 
@@ -225,16 +231,36 @@ p{
 }
 
 /*FOOTER CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.footer{
+#footer{
 	background:#2E2633;
+	text-align: left;
 }
 
-form .contact-form{
-	float: right;
-	clear: left;
+#footer h2{
+	color:#C02943;
+	padding:0.5em;
+}
+
+.contact-form{
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-direction: column;
+    flex-direction: column;
+
+    -webkit-align-items: center;
+    align-items: center;
+
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    padding: 5em;
+    padding-top: 2.5em;
 }
 
 form .row{
+	display: -webkit-flex;
+	display: flex;
 	padding: 0.5em;
 }
 
@@ -242,6 +268,30 @@ label{
 	font-family: "moonbold", arial, sans-serif;
 	color: #F7E6B5;
 	font-size: 12px;
+	text-align: center;
+}
+
+textarea[type="text"]{
+  padding:0.2em 0.5em;
+  color:#555;
+  background-color: #E6E6E6;
+  font-size: 12px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+select{
+	padding: 0.5em 2em;
+    border: none;
+    border-radius: 4px;
+    background-color: #EAEAEA;
+}
+
+textarea[type="text"]:focus {
+  outline: none;
 }
 
 input[type="text"] {
@@ -282,8 +332,8 @@ input[type="text"]:focus {
 	-webkit-justify-content: center;
     justify-content: center;
 
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .featured-item{
