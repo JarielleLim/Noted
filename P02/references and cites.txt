@@ -9,12 +9,17 @@ eventspic1 - sketchbook image taken from: https://twistedsifter.files.wordpress.
 
 COLORS
 light grey: #EAEAEA
+lighter grey: #F7F7F7
 dark purple: #2E2633
 magenta: #542437
 light yellow: #F7E6B5
 dark yellow: #ECD078
 pink: #C02943
 
+
 padding: top right down left
 z-index >>whats on top
 
+
+dashed top border
+border-top: 4px dashed #C02943;

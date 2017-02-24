@@ -57,8 +57,9 @@ body{
 
 h1{
 	font-family: "moonbold", arial, sans-serif;
-	font-size: 5em;
+	font-size: 3em;
 	color: #2E2633;
+	text-align: center;
 }
 
 h2{
@@ -66,10 +67,31 @@ h2{
 	font-size: 2em;
 }
 
+h3, h4{
+	font-family: "moonbold", arial, sans-serif;
+	letter-spacing: 1px;
+	color: #542437;
+}
+
+
 
 a{
 	text-decoration: none;
 	color: #2E2633;
+}
+
+p{
+	line-height: 2em;
+}
+
+.text-link {
+    color: #552437;
+    text-decoration: underline;
+}
+
+.text-link:hover, .text-link:focus {
+    color: #C22945;
+    text-decoration: underline;
 }
 
 /* NAV BAR~~~~~~~~~~~~~~~~~*/
@@ -269,7 +291,6 @@ input[type="text"]:focus {
 }
 
 .featured-prod {
-	border-radius: 1em;
 	opacity: 1;
   	display: block;
 	width: 280px;
@@ -635,3 +656,70 @@ h1 {
 	padding:8em;
 	padding-top:2em;
 }
+
+.events{
+	background-color: white;
+	padding:3em 10em;
+	border-top: 4px dashed #C02943;
+}
+
+.events-flex{
+	display: flex;
+	-webkit-display: flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+
+	align-items: center;
+}
+
+.event-item{
+	display: flex;
+	-webkit-display: flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+
+	align-items: center;
+}
+
+.events-img{
+	flex-grow: 2;
+	width:30%;
+}
+
+.events-img img{
+	width: 100%;
+	height: auto;
+}
+
+.events-content{
+	flex-grow: 3;
+	width: 40%;
+	padding: 2em;
+}
+
+.event-title{
+	display: flex;
+	align-items: center;
+}
+
+.event-title img{
+	width:1.5em;
+	padding-right: 0.6em;
+}
+
+.event-date{
+	color: #2E2633;
+	opacity: 0.4;
+	font-size: 0.5em;
+	padding:1em;
+	font-family: "open_sansregular", arial, sans-serif;
+}
+
