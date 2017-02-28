@@ -829,3 +829,22 @@ h1 {
 	font-size: 1rem;
 }
 
+.product-about {
+	display: block;
+	background-color: #EAEAEA;
+}
+
+.product-about h1 {
+	padding-top: 5rem;
+	font-size: 1.5rem;
+}
+.product-about p {
+	padding-right: 5rem;
+	padding-left: 5rem;
+	padding-bottom: 5rem;
+}
+
+
+
+
+
