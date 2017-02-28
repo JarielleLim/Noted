@@ -809,3 +809,23 @@ h1 {
 	font-family: "open_sansregular", arial, sans-serif;
 }
 
+/* -------------------- Product details Page ----------------- */
+
+.product-image {
+	margin-left: 10rem;
+	margin-top: 5rem; 
+	display: inline-block;
+}
+
+.product-basics {
+	display: inline-block;
+}
+
+.product-basics h1 {
+	font-size: 2rem;
+}
+
+.product-basics h2 {
+	font-size: 1rem;
+}
+
