@@ -844,6 +844,21 @@ h1 {
 	padding-bottom: 5rem;
 }
 
+.product-specs {
+	background-color: #F7E6B5;
+	display: block;
+}
+
+.product-specs h1 {
+	padding-top: 5rem;
+	font-size: 1.5rem;
+}
+.product-specs p {
+	padding-right: 5rem;
+	padding-left: 5rem;
+	padding-bottom: 5rem;
+}
+
 
 
 
