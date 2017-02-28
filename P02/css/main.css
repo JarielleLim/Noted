@@ -667,6 +667,11 @@ input[type="date"]:focus {
 	font-size: 2rem;
 }
 
+.faq-title {
+	background-color: #EAEAEA;
+	padding: 5rem;
+}
+
 .faq-list li {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
