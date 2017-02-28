@@ -689,6 +689,10 @@ input[type="date"]:focus {
 	text-decoration: underline;
 }
 
+.faq-answers {
+	background-color:  #F7E6B5;
+}
+
 .faq-answers h2 {
 	padding-bottom: 0.5rem;
 	font-size: 1rem;
