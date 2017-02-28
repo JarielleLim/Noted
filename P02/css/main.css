@@ -859,6 +859,28 @@ h1 {
 	padding-bottom: 5rem;
 }
 
+.product-review {
+	background-color: #EAEAEA;
+	display: block;
+}
+
+.product-review h1 {
+	padding-top: 5rem;
+	font-size: 1.5rem;
+}
+.product-review h2 {
+	padding-top: 3rem;
+	font-size: 1rem;
+	padding-left: 5rem;
+}
+
+.product-review p {
+	padding-right: 5rem;
+	padding-left: 5rem;
+	padding-bottom: 2rem;
+}
+
+
 
 
 
