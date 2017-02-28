@@ -672,6 +672,10 @@ input[type="date"]:focus {
 	padding: 5rem;
 }
 
+.faq-list {
+	padding: 3rem;
+}
+
 .faq-list li {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
