@@ -694,6 +694,7 @@ input[type="date"]:focus {
 }
 
 .faq-answers h2 {
+	padding-top: 3rem;
 	padding-bottom: 0.5rem;
 	font-size: 1rem;
 	font-family: "moonbold", arial, sans-serif;
