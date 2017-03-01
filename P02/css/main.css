@@ -876,6 +876,40 @@ h1 {
 	font-size: 0.75rem;
 }
 
+.button-qty {
+    display:inline-block;
+    font-family: "moonbold", arial, sans-serif;
+    padding: 1.5em 1em;
+    font-size: 1em;
+    background: #b9b9b9;
+    color:white;
+    text-decoration: none;
+    border-radius: 1em;
+    -webkit-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.button-qty:hover, .button-qty:focus {
+	display:inline-block;
+    color:white;
+    text-decoration: none;
+    background: #737373;
+}
+
+
+.button-qty:active{
+  display:inline-block;
+    background: #552437;
+    color:white;
+    text-decoration: none;
+    border-radius: 1em;
+    -webkit-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    font-family: "moonbold", arial, sans-serif;
+}
+
 .product-about {
 	display: block;
 	background-color: #EAEAEA;
