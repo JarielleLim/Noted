@@ -830,9 +830,13 @@ h1 {
 /* -------------------- Product details Page ----------------- */
 
 .product-image {
-	margin-left: 10rem;
-	margin-top: 5rem; 
+	width: 70%;
 	display: inline-block;
+}
+
+.product-image img {
+	width: 70%;
+	height: 30%;
 }
 
 .product-basics {
