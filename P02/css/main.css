@@ -336,6 +336,7 @@ input[type="date"]:focus {
     flex-wrap: wrap;
     -webkit-justify-content: center;
     justify-content: center;
+    margin-top:3em;
 }
 
 .item {
@@ -589,27 +590,9 @@ input[type="date"]:focus {
 
 /* PRODUCT PAGE CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.product {
-    display: block;
-    margin: auto;
-}
-
-.product img {
-    display: block;
-    width: 300px;
-    height: 300px;
-    margin: auto;
-    border-radius: 10px;
-}
-
-.product:focus, .product:hover {
-    color: #6B4C74;
-}
-
 .product-names {
     margin-bottom: 0;
     text-align: center;
-
 }
 
 .product-price {
@@ -723,11 +706,13 @@ h1 {
 .events-flex {
     display: flex;
     flex-direction: column;
+
 }
 
 .event-item {
     display: flex;
     flex-direction: row;
+
 }
 
 .events-img {
