@@ -692,12 +692,18 @@ h1 {
 
 .about {
     display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .about-flex-image {
     max-width: 20em;
     padding-top: 5em;
     flex-grow: 1;
+    display: block;
 }
 
 .about-flex-text {
@@ -716,10 +722,12 @@ h1 {
 
 .events-flex {
     display: flex;
+    flex-direction: column;
 }
 
 .event-item {
     display: flex;
+    flex-direction: row;
 }
 
 .events-img {
