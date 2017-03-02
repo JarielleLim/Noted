@@ -3,31 +3,33 @@
 <html lang="en">
 
 <head>
-		
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
 
-		<title>Your Cart - Finish</title>
-		<link rel="stylesheet" href="css/fonts.css"> 
-		<link rel="stylesheet" href="css/main.css"> 
-		<link rel="stylesheet" href="css/grids.css"> 
-	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 
-	</head>
+	<title>Your Cart - Finish</title>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grids.css">
 
-	<body>
+
+</head>
+
+<body>
 
 	<div class="header-bar">
 
 		<div class="cart">
-		<a href="cart.html"><img src=images/shopCartPink.png alt="shopping cart"></a>
+			<a href="cart.html"><img src=images/shopCartPink.png alt="shopping cart"></a>
 		</div>
 
 		<nav>
 			<ul class="main-nav-flex">
 				<li class="nav-item"><a href="products.html">Notebooks</a></li>
 				<li class="nav-item"><a href="about.html">About</a></li>
-				<li class="nav-item logo"><a href="index.html"><img src="images/notedLogo.png" alt="logo"></a></li>
+				<li class="nav-item logo">
+					<a href="index.html"><img src="images/notedLogo.png" alt="logo"></a>
+				</li>
 				<li class="nav-item"><a href="#footer">Contact</a></li>
 				<li class="nav-item"><a href="faq.html">FAQ</a></li>
 			</ul>
@@ -37,30 +39,31 @@
 	<div class="container">
 		<section id="cart-summary">
 
-<!-- ~~~CART CONTAINER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-		<div class="cart-container">	
+			<!-- ~~~CART CONTAINER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<div class="cart-container">
 
-		<div class="thanks">
-			<img src="images/shopCartGrey.png" alt="Product"/>
-			<h1>Thanks for purchasing!</h1>
-		</div>
+				<div class="thanks">
+					<img src="images/shopCartGrey.png" alt="Product" />
+					<h1>Thanks for purchasing!</h1>
+				</div>
 
-		</div>
-
-			<div class="procceed-flex">
-					<a href="index.html"><button class="button-default">Back to home </button></a>
 			</div>
 
-			<div class="procceed-flex">
-					<a href="index.html"><button class="button-default">Shop for more </button></a>
-			</div>
-	</section>
+			<form class="procceed-flex">
+				<button class="button-default" formaction="index.html">Back to home </button>
+			</form>
+
+			<form class="procceed-flex">
+				<button class="button-default" formaction="products.html">Shop for more </button>
+			</form>
+		</section>
+	</div>
 
 
-<!-- ~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<section id="footer">
-	
-		<form class="contact-form" action="#" method="POST" enctype="">
+
+		<form class="contact-form" action="#" method="POST">
 			<h2>Send us an email!</h2>
 			<label for="name">Your name:</label>
 			<div class="row">
@@ -74,13 +77,14 @@
 
 			<label for="message">Your message:</label>
 			<div class="row">
-				<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea>
+				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
 			</div>
 
 			<input class="button-default email" type="submit" value="Send email" />
-		</form>	
+		</form>
 	</section>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-	</body>
+</body>
+
 </html>
