@@ -323,9 +323,9 @@ input[type="date"]:focus {
 }
 
 
-/* FEATURED ITEMS CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ITEMS CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.featured-flex {
+.product-flex {
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
@@ -338,11 +338,11 @@ input[type="date"]:focus {
     justify-content: center;
 }
 
-.featured-item {
+.item {
     padding: 0em 2em 5em 2em;
 }
 
-.featured-prod {
+.item-image {
     display: block;
     width: 280px;
     height: auto;
@@ -515,6 +515,7 @@ input[type="date"]:focus {
     border-top: 2px solid #EAEAEA;
 }
 
+
 /* ~~~~Button placement styling~~~~~~~ */
 
 .procceed-flex {
@@ -605,10 +606,10 @@ input[type="date"]:focus {
     color: #6B4C74;
 }
 
-.product-name {
+.product-names {
     margin-bottom: 0;
     text-align: center;
-    font-family: "open_sansbold", arial, sans-serif;
+
 }
 
 .product-price {
