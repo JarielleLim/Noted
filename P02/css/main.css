@@ -339,14 +339,14 @@ input[type="date"]:focus {
 }
 
 .item {
-    padding: 0em 2em 5em 2em;
+    padding: 0em 2em 1em 2em;
 }
 
 .item-image {
     display: block;
     width: 280px;
     height: auto;
-    padding: 0em 2em 0em 2em;
+    border-radius: 1.5em;
     opacity: 1;
     opacity: 1;
     backface-visibility: hidden;
@@ -356,8 +356,8 @@ input[type="date"]:focus {
 .detail-text {
     position: absolute;
     opacity: 0;
-    -ms-transform: translate(115%, -220%);
-    transform: translate(115%, -220%);
+    -ms-transform: translate(80%, -220%);
+    transform: translate(80%, -220%);
     transition: .2s ease;
 }
 
@@ -369,7 +369,7 @@ input[type="date"]:focus {
     transition: .2s ease;
 }
 
-.details:hover .featured-prod {
+.details:hover .item-image {
     opacity: 0.3;
 }
 
