@@ -605,6 +605,39 @@ input[type="date"]:focus {
     color: #6B4C74;
 }
 
+.options-flex{
+  display: -webkit-flex;
+  display: flex;
+  padding: 1em;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.number-of-pages{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-decoration: underline;
+  list-style: none;
+  padding: 1em;
+}
+
+.num{
+  padding:1em;
+}
 
 /* -------------------- FAQ Page ----------------- */
 
