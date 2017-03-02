@@ -1,6 +1,6 @@
 fixed nav bar reference: http://sixrevisions.com/css/fixed-navigation-bar/
 contact form reference: https://www.123contactform.com/html-contact-form/
-flexbox reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+flexbox reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 hover image (lighten): https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
 letter spacing reference: https://www.w3schools.com/cssref/pr_text_letter-spacing.asp
 shoppingcart UI https://designmodo.com/shopping-cart-ui/
