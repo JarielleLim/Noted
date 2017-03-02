@@ -123,7 +123,7 @@ p {
     display: -webkit-flex;
     display: flex;
     margin: 0px;
-    padding: 20px;
+    padding: 1em;
     -webkit-align-items: center;
     align-items: center;
     font-family: "moonbold", arial, sans-serif;
@@ -151,7 +151,6 @@ p {
     min-width: 100%;
     height: auto;
     margin: 0px;
-    padding: 0px;
     opacity: 0.7;
     background-color: black;
 }
@@ -179,8 +178,7 @@ p {
 
 .nav-item a {
     display: block;
-    padding-right: 1em;
-    padding-left: 1em;
+    padding: 0em 1em;
     color: #552437;
     text-decoration: none;
 }
@@ -619,6 +617,15 @@ input[type="date"]:focus {
   justify-content: center;
 }
 
+.opt{
+  padding: 1em;
+  text-align: center;
+}
+
+.opt-title{
+font-size: 0.8rem;
+}
+
 .number-of-pages{
   display: -webkit-flex;
   display: flex;
@@ -630,18 +637,21 @@ input[type="date"]:focus {
   flex-wrap: wrap;
   -webkit-justify-content: center;
   justify-content: center;
-  text-decoration: underline;
   list-style: none;
   padding: 1em;
+  text-align: center;
+
 }
 
 .num{
-  padding:1em;
+  padding:0.7em;
+  padding-bottom: 4em;
 }
 
 .num:hover {
-  padding:1em;
-  color:#C02943
+  color:#C02943;
+  text-decoration: underline;
+  text-decoration-color: #C02943;
 }
 
 /* -------------------- FAQ Page ----------------- */
