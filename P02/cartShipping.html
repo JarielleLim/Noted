@@ -4,30 +4,32 @@
 
 <head>
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 
-		<title>Your Cart - Enter details</title>
-		<link rel="stylesheet" href="css/fonts.css">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/grids.css">
+	<title>Your Cart - Enter details</title>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grids.css">
 
 
-	</head>
+</head>
 
-	<body>
+<body>
 
 	<div class="header-bar">
 
 		<div class="cart">
-		<a href="cart.html"><img src=images/shopCartPink.png alt="shopping cart"></a>
+			<a href="cart.html"><img src=images/shopCartPink.png alt="shopping cart"></a>
 		</div>
 
 		<nav>
 			<ul class="main-nav-flex">
 				<li class="nav-item"><a href="products.html">Notebooks</a></li>
 				<li class="nav-item"><a href="about.html">About</a></li>
-				<li class="nav-item logo"><a href="index.html"><img src="images/notedLogo.png" alt="logo"></a></li>
+				<li class="nav-item logo">
+					<a href="index.html"><img src="images/notedLogo.png" alt="logo"></a>
+				</li>
 				<li class="nav-item"><a href="#footer">Contact</a></li>
 				<li class="nav-item"><a href="faq.html">FAQ</a></li>
 			</ul>
@@ -37,37 +39,38 @@
 	<div class="container">
 		<section id="cart-shipping-info">
 
-		<div class="cart-title-flex">
+			<div class="cart-title-flex">
 
-			<img src="images/shopCartGrey.png" alt="Product"/>
-			<h2>Cart</h2>
+				<img src="images/shopCartGrey.png" alt="Product" />
+				<h2>Cart</h2>
 
-			<ol class="process-list-flex">
-			<li class="process-part"><a href="cart.html">1 summary</a></li>
-			<li class="process-part"><div class="current">2 shipping info</div></li>
-			<li class="process-part">3 confirmation</li>
-			</ol>
-		</div>
+				<ol class="process-list-flex">
+					<li class="process-part"><a href="cart.html">1 summary</a></li>
+					<li class="process-part">
+						<div class="current">2 shipping info</div>
+					</li>
+					<li class="process-part">3 confirmation</li>
+				</ol>
+			</div>
 
-<!-- SHIPPING INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- SHIPPING INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 			<div class="cart-container">
 
-					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 				<div class="cart-shipping-flex">
-				<div class="cart-shipping-title"><h3>1. SHIPPING INFO</h3></div>
+					<div class="cart-shipping-title">
+						<h3>1. SHIPPING INFO</h3></div>
 
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-					<label for="address">Address:</label>
-					<div id="address">
-						<input id="address" class="input" name="address" type="text" value="" size="30" />
-					</div>
+					<label class="address">Address:</label>
+					<input id="address" class="input" name="address" type="text" value="" size="30" />
 
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-					<label for="country">Country:</label>
+					<label class="country">Country:</label>
 
 					<div id="country">
 
@@ -80,10 +83,10 @@
 
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-					<label for="State_Province">State/Province:</label>
+					<label class="State_Province">State/Province:</label>
 
 					<div id="State_Province">
-							<select>
+						<select>
 								<option value="AB">Alberta</option>
 								<option value="BC">British Columbia</option>
 								<option value="MB">Manitoba</option>
@@ -101,16 +104,17 @@
 					</div>
 				</div>
 
-<!-- ~~~PAYMENT INFO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<!-- ~~~PAYMENT INFO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 				<div class="cart-shipping-flex">
-					<div class="cart-shipping-title"><h3>2. PAYMENT INFO</h3></div>
+					<div class="cart-shipping-title">
+						<h3>2. PAYMENT INFO</h3></div>
 
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-					<label for="card-type">card type:</label>
+					<label class="card-type">card type:</label>
 
 					<div id="card-type">
-							<select>
+						<select>
 								<option value="VIS">Visa</option>
 								<option value="MC">Mastercard</option>
 								<option value="PP">Paypal</option>
@@ -119,7 +123,7 @@
 
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-					<label for="card-number">Card Number:</label>
+					<label class="card-number">Card Number:</label>
 					<div id="card-number">
 						<input id="card-num" class="input" name="card-number" type="number" value="" size="16" />
 					</div>
@@ -127,29 +131,27 @@
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 					<label for="exp-date">Expiry Date:</label>
-					<div id="exp-date">
-						<input id="exp-date" class="input" name="exp-date" type="date" value="" size="5" />
-					</div>
+					<input id="exp-date" class="input" name="exp-date" type="date" value="" size="5" />
 
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 
 				</div>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 			</div>
 
-			<div class="procceed-flex">
-					<a href="cartConfirm.html"><button class="button-default">Procceed &rsaquo; </button></a>
-			</div>
+			<form class="procceed-flex">
+				<button class="button-default" formaction="cartConfirm.html">Procceed &rsaquo; </button>
+			</form>
 
 		</section>
 	</div>
 
-<!-- ~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<section id="footer">
 
-		<form class="contact-form" action="#" method="POST" enctype="">
+		<form class="contact-form" action="#" method="POST">
 			<h2>Send us an email!</h2>
 			<label for="name">Your name:</label>
 			<div class="row">
@@ -163,13 +165,14 @@
 
 			<label for="message">Your message:</label>
 			<div class="row">
-				<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea>
+				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
 			</div>
 
 			<input class="button-default email" type="submit" value="Send email" />
 		</form>
 	</section>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-	</body>
+</body>
+
 </html>
