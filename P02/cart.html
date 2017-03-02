@@ -3,31 +3,32 @@
 <html lang="en">
 
 <head>
-		
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
 
-		<title>Your Cart</title>
-		<link rel="stylesheet" href="css/fonts.css"> 
-		<link rel="stylesheet" href="css/main.css"> 
-		<link rel="stylesheet" href="css/grids.css"> 
-	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 
-	</head>
+	<title>Your Cart</title>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grids.css">
 
-	<body>
+</head>
+
+<body>
 
 	<div class="header-bar">
 
 		<div class="cart">
-		<a href="cart.html"><img src=images/shopCartPink.png alt="shopping cart"></a>
+			<a href="cart.html"><img src=images/shopCartPink.png alt="shopping cart"></a>
 		</div>
 
 		<nav>
 			<ul class="main-nav-flex">
 				<li class="nav-item"><a href="products.html">Notebooks</a></li>
 				<li class="nav-item"><a href="about.html">About</a></li>
-				<li class="nav-item logo"><a href="index.html"><img src="images/notedLogo.png" alt="logo"></a></li>
+				<li class="nav-item logo">
+					<a href="index.html"><img src="images/notedLogo.png" alt="logo"></a>
+				</li>
 				<li class="nav-item"><a href="#footer">Contact</a></li>
 				<li class="nav-item"><a href="faq.html">FAQ</a></li>
 			</ul>
@@ -37,112 +38,122 @@
 	<div class="container">
 		<section id="cart-summary">
 
-		<div class="cart-title-flex">	
-			
-			<img src="images/shopCartGrey.png" alt="Product"/>
-			<h2>Cart</h2>
+			<div class="cart-title-flex">
 
-			<ol class="process-list-flex">
-			<li class="process-part"><div class="current">1 summary</div></li>
-			<li class="process-part">2 shipping info</li>
-			<li class="process-part">3 confirmation</li>
-			</ol>
-		</div>
+				<img src="images/shopCartGrey.png" alt="Product" />
+				<h2>Cart</h2>
 
-					<div class="cart-container">
+				<ol class="process-list-flex">
+					<li class="process-part">
+						<div class="current">1 summary</div>
+					</li>
+					<li class="process-part">2 shipping info</li>
+					<li class="process-part">3 confirmation</li>
+				</ol>
+			</div>
 
-					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			<div class="cart-container">
+
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 				<div class="cart-shipping-flex">
 
-				<div class="cart-shipping-title"><h3>CART SUMMARY</h3></div>
+					<div class="cart-shipping-title">
+						<h3>CART SUMMARY</h3></div>
 
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-			<div class="cart-item-display confirm">
+					<div class="cart-item-display confirm">
 
-	<!-- product 1 -->
-				<div class="cart-flex-item">
+						<!-- product 1 -->
+						<div class="cart-flex-item">
 
-					<div id="delete"><img src="images/delete.png" alt="Product"/></div>
+							<div class="delete"><img src="images/delete.png" alt="Product" /></div>
 
-					<div id="like"><img src="images/like.png" alt="Product"/></div>
+							<div class="like"><img src="images/like.png" alt="Product" /></div>
 
-					<div id="image"><img src="images/product1.jpg" alt="Product"/></div>
+							<div class="image"><img src="images/product1.jpg" alt="Product" /></div>
 
-					<div id="product-name"><h4>Bees n' Cats (Dotted)</h4></div>
+							<div class="product-name">
+								<h4>Bees n' Cats (Dotted)</h4></div>
 
-					<div id="price"><p>$14.00 CAD</p></div>
+							<div class="price">
+								<p>$14.00 CAD</p>
+							</div>
 
+						</div>
+
+						<div class="cart-flex-item">
+
+							<div class="delete"><img src="images/delete.png" alt="Product" /></div>
+
+							<div class="like"><img src="images/like.png" alt="Product" /></div>
+
+							<div class="image"><img src="images/product2.jpg" alt="Product" /></div>
+
+							<div class="product-name">
+								<h4>Astronauts (Plain)</h4></div>
+
+							<div class="price">
+								<p>$10.00 CAD</p>
+							</div>
+
+						</div>
+
+						<div class="cart-flex-item">
+
+							<div class="delete"> </div>
+
+							<div class="like"></div>
+
+							<div class="image"></div>
+
+							<div class="product-name"></div>
+
+							<div class="total">
+								<p>Before Tax: </p>
+								<p> Tax: </p>
+							</div>
+
+							<div class="price">
+								<p>$24.00 CAD</p>
+								<p>$30.00 CAD</p>
+							</div>
+						</div>
+
+						<div class="cart-flex-item total">
+
+							<div class="delete"> </div>
+
+							<div class="like"></div>
+
+							<div class="image"></div>
+
+							<div class="product-name"></div>
+
+							<div class="final-total">
+								<p>Total: </p>
+							</div>
+
+							<div class="final-price">
+								<p>$27.00 CAD</p>
+							</div>
+						</div>
+					</div>
 				</div>
 
-				<div class="cart-flex-item">
+				<form class="procceed-flex">
+					<button class="button-default" formaction="cartShipping.html"> Procceed &rsaquo; </button>
+				</form>
 
-					<div id="delete"><img src="images/delete.png" alt="Product"/></div>
-
-					<div id="like"><img src="images/like.png" alt="Product"/></div>
-
-					<div id="image"><img src="images/product2.jpg" alt="Product"/></div>
-
-					<div id="product-name"><h4>Astronauts (Plain)</h4></div>
-
-					<div id="price"><p>$10.00 CAD</p></div>
-					
-				</div>
-
-				<div class="cart-flex-item">
-
-					<div id="delete"> </div>
-
-					<div id="like"></div>
-
-					<div id="image"></div>
-
-					<div id="product-name"></div>
-
-					<div id="total">
-					<p>Before Tax: </p>
-					<p> Tax: </p>
-					</div>
-
-					<div id="price">				
-						<p>$24.00 CAD</p>
-						<p>$30.00 CAD</p>
-					</div>
-				</div>
-
-				<div class="cart-flex-item total">
-
-					<div id="delete"> </div>
-
-					<div id="like"></div>
-
-					<div id="image"></div>
-
-					<div id="product-name"></div>
-
-					<div id="final-total">
-						<p>Total: </p>
-					</div>
-
-					<div id="final-price">				
-						<p>$27.00 CAD</p>
-					</div>
-				</div>			
 			</div>
-		</div>
-
-			<div class="procceed-flex">
-					<a href="cartShipping.html"><button class="button-default">Procceed &rsaquo; </button></a>
-			</div>
-
 		</section>
 	</div>
 
-<!-- ~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<section id="footer">
-	
-		<form class="contact-form" action="#" method="POST" enctype="">
+
+		<form class="contact-form" action="#" method="POST">
 			<h2>Send us an email!</h2>
 			<label for="name">Your name:</label>
 			<div class="row">
@@ -156,13 +167,13 @@
 
 			<label for="message">Your message:</label>
 			<div class="row">
-				<textarea id="message" class="input" name="message" type="text" rows="7" cols="30"></textarea>
+				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
 			</div>
 
 			<input class="button-default email" type="submit" value="Send email" />
-		</form>	
+		</form>
 	</section>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-	</body>
+</body>
+
 </html>
