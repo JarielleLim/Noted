@@ -39,25 +39,41 @@
 	<div class="container">
 		<div class="options-flex">
 
+			<!-- paper type dropdown ---------------------------->
 			<div class="opt">
-				<h3>paper type</h3>
+				<h4 class="opt-title">paper type</h4>
 				<label for="papertype" class="papertype">
-			<select name="papertype" id="papertype">
-				<option value="dotted">dotted</option>
-				<option value="grid">grid</option>
-				<option value="blank">blank</option>
-			</select>
-		</label>
+				<select name="papertype" id="papertype">
+					<option value="dotted">dotted</option>
+					<option value="grid">grid</option>
+					<option value="blank">blank</option>
+				</select>
+				</label>
 			</div>
+
+			<!-- paper size dropdown ---------------------------->
 			<div class="opt">
-				<h3>paper size</h3>
+				<h4 class="opt-title">paper size</h4>
 				<label for="papersize" class="papersize">
-		<select name="papersize" id="papersize">
-			<option value="A5">A5</option>
-			<option value="A4">A4</option>
-			<option value="A3">A3</option>
-		</select>
-	</label>
+				<select name="papersize" id="papersize">
+					<option value="A5">A5</option>
+					<option value="A4">A4</option>
+					<option value="A3">A3</option>
+				</select>
+				</label>
+			</div>
+
+			<!-- price range dropdown ---------------------------->
+			<div class="opt">
+				<h4 class="opt-title">price range</h4>
+				<label for="pricerange" class="pricerange">
+				<select name="pricerange" id="pricerange">
+					<option value="0-10">$0-$10</option>
+					<option value="10-30">$10-$30</option>
+					<option value="30-50">$30-$50</option>
+					<option value="50">$50+</option>
+				</select>
+				</label>
 			</div>
 
 		</div>
@@ -213,13 +229,13 @@
 	</section>
 
 	<ul class="number-of-pages">
+		<li class="num">&lsaquo;</li>
 		<li class="num">1</li>
 		<li class="num">2</li>
 		<li class="num">3</li>
 		<li class="num">4</li>
 		<li class="num">5</li>
-		<li class="num">6</li>
-		<li class="num">7</li>
+		<li class="num">&rsaquo;</li>
 	</ul>
 
 
