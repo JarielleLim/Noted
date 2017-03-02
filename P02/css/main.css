@@ -639,6 +639,11 @@ input[type="date"]:focus {
   padding:1em;
 }
 
+.num:hover {
+  padding:1em;
+  color:#C02943
+}
+
 /* -------------------- FAQ Page ----------------- */
 
 #faq-top h1 {
