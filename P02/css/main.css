@@ -656,9 +656,16 @@ font-size: 0.8rem;
 
 /* -------------------- FAQ Page ----------------- */
 
-#faq-top h1 {
-    text-align: center;
-    font-size: 2rem;
+.faq-flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top:3em;
 }
 
 .faq-title {
@@ -668,6 +675,7 @@ font-size: 0.8rem;
 
 .faq-title h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
 .faq-list {
@@ -681,6 +689,13 @@ font-size: 0.8rem;
     text-decoration: none;
     font-family: "moonlight", arial, sans-serif;
     list-style-type: none;
+}
+
+@media (max-width: 40em) {
+    .faq-flex li {
+        width: 100%;
+        margin-left: 0rem;
+    }
 }
 
 .faq-listq:focus, .faq-listq:hover {
