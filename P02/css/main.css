@@ -803,14 +803,14 @@ h1 {
 
 /* -------------------- Product details Page ----------------- */
 
+/* --------- Product Basics (Image + Add to cart) Area ------- */
+
 .product-image {
-    display: inline-block;
-    width: 70%;
+    display: block;
 }
 
 .product-image img {
-    width: 70%;
-    height: 30%;
+    width: 50%;
 }
 
 .product-basics {
@@ -879,6 +879,20 @@ h1 {
     transition: background-color 0.3s ease-out;
 }
 
+/* ------------- Product Details Area -------------- */
+
+.details-flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top:3em;
+}
+
 .product-about {
     display: block;
     background-color: #EAEAEA;
@@ -936,21 +950,4 @@ td {
     padding-right: 5rem;
     padding-bottom: 2rem;
     padding-left: 5rem;
-}
-
-.addtocart-flex {
-    display: flex;
-    display: -webkit-flex;
-}
-
-.details-flex {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: stretch;
-    align-items: stretch;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-top:3em;
 }
