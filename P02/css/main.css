@@ -138,21 +138,19 @@ p {
 
 .welcome-banner-text {
     z-index: 400;
-    position: absolute;
     top: 10%;
-    left: 3%;
     width: 100%;
-    padding-top: 5em;
+    padding: 5em 0em;
     text-align: center;
+    background-image: url("../images/testImage.jpg");
+    background-size: cover;
 }
 
 .banner {
     position: relative;
-    min-width: 100%;
+    max-width: 100%;
     height: auto;
     margin: 0px;
-    opacity: 0.7;
-    background-color: black;
 }
 
 .welcome-text {

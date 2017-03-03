@@ -1,12 +1,12 @@
-/* 
+/*
 Anshula Dekate - Week 3 Lab Code task
-Citations: 
-Made use of in lecture tutorial 
+Citations:
+Made use of in lecture tutorial
 */
 
-* {
+/** {
 	box-sizing; border-box;
-}
+}*/
 
 [class^='grid-col-'] {
 	float: left;
@@ -26,10 +26,16 @@ Made use of in lecture tutorial
 @media (min-width: 43em) {
 	.grid-col-1of3 {
 		width: 33%;
-	}	
+	}
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media (max-width: 850px) {
+	.welcome-banner-text{
+		top:4%;
+
+	}
 }
 
-/*change orientation of logo to top*/
 @media (max-width: 650px) {
 	.nav-item.logo{
 		order: -1;
@@ -44,15 +50,15 @@ Made use of in lecture tutorial
 	}
 
 	.welcome-banner-text{
-		top:30%;
-		font-size: 50%;
+		top:12%;
+		font-size: 40%;
 	}
 }
 
 
 @media (max-width: 500px) {
 	.welcome-banner-text{
-		top:30%;
+		top:12%;
 	}
 }
 
@@ -64,10 +70,10 @@ Made use of in lecture tutorial
 	.main-nav-flex{
 		-webkit-flex-direction: column;
    		flex-direction: column;
-	}	
+	}
 
 	.welcome-banner-text{
-		top:50%;
+		top:22%;
 		font-size: 30%;
 	}
 }
