@@ -689,7 +689,34 @@ font-size: 0.8rem;
     list-style-type: none;
 }
 
+@media (max-width: 100em) {
+    .faq-flex li {
+        width: 100%;
+        margin-left: 20rem;
+    }
+}
+
+@media (max-width: 80em) {
+    .faq-flex li {
+        width: 100%;
+        margin-left: 15rem;
+    }
+}
+
+@media (max-width: 60em) {
+    .faq-flex li {
+        width: 100%;
+        margin-left: 10rem;
+    }
+}
 @media (max-width: 40em) {
+    .faq-flex li {
+        width: 100%;
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 20em) {
     .faq-flex li {
         width: 100%;
         margin-left: 0rem;
