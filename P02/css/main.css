@@ -896,8 +896,8 @@ h1 {
 }
 
 .product-specs {
-    display: block;
     background-color: #F7E6B5;
+    flex: 1 1 auto;
 }
 
 .product-specs h1 {
@@ -936,4 +936,21 @@ td {
     padding-right: 5rem;
     padding-bottom: 2rem;
     padding-left: 5rem;
+}
+
+.addtocart-flex {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.details-flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top:3em;
 }
