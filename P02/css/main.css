@@ -654,9 +654,16 @@ font-size: 0.8rem;
 
 /* -------------------- FAQ Page ----------------- */
 
-#faq-top h1 {
-    text-align: center;
-    font-size: 2rem;
+.faq-flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top:3em;
 }
 
 .faq-title {
@@ -666,6 +673,7 @@ font-size: 0.8rem;
 
 .faq-title h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
 .faq-list {
@@ -679,6 +687,13 @@ font-size: 0.8rem;
     text-decoration: none;
     font-family: "moonlight", arial, sans-serif;
     list-style-type: none;
+}
+
+@media (max-width: 40em) {
+    .faq-flex li {
+        width: 100%;
+        margin-left: 0rem;
+    }
 }
 
 .faq-listq:focus, .faq-listq:hover {
@@ -801,21 +816,20 @@ h1 {
 
 /* -------------------- Product details Page ----------------- */
 
+/* --------- Product Basics (Image + Add to cart) Area ------- */
+
 .product-image {
-    display: inline-block;
-    width: 70%;
+    display: block;
 }
 
 .product-image img {
-    width: 70%;
-    height: 30%;
+    width: 50%;
 }
 
 .product-basics {
-    z-index: 1;
     display: inline-block;
     position: absolute;
-    top: 3em;
+    top: 10rem;
     right: 0;
     width: 40%;
     padding: 2rem 4rem 3rem 4rem;
@@ -878,6 +892,20 @@ h1 {
     transition: background-color 0.3s ease-out;
 }
 
+/* ------------- Product Details Area -------------- */
+
+.details-flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top:3em;
+}
+
 .product-about {
     display: block;
     background-color: #EAEAEA;
@@ -895,8 +923,8 @@ h1 {
 }
 
 .product-specs {
-    display: block;
     background-color: #F7E6B5;
+    flex: 1 1 auto;
 }
 
 .product-specs h1 {
