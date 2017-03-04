@@ -679,7 +679,7 @@ input[type="date"]:focus {
     flex-direction: column;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 3em;
+    justify-content: center;
 }
 
 .faq-title {
@@ -705,38 +705,9 @@ input[type="date"]:focus {
     list-style-type: none;
 }
 
-@media (max-width: 100em) {
-    .faq-flex li {
-        width: 100%;
-        margin-left: 20rem;
-    }
-}
-
-@media (max-width: 80em) {
-    .faq-flex li {
-        width: 100%;
-        margin-left: 15rem;
-    }
-}
-
-@media (max-width: 60em) {
-    .faq-flex li {
-        width: 100%;
-        margin-left: 10rem;
-    }
-}
-
 @media (max-width: 40em) {
     .faq-flex li {
         width: 100%;
-        margin-left: 5rem;
-    }
-}
-
-@media (max-width: 20em) {
-    .faq-flex li {
-        width: 100%;
-        margin-left: 0rem;
     }
 }
 
@@ -746,27 +717,26 @@ input[type="date"]:focus {
 
 .faq-answers {
     background-color: #F7E6B5;
+    padding: 3rem 0rem 0.5rem 23rem;
+    text-align: right;
 }
 
 .faq-answers h2 {
     max-width: 45rem;
-    margin-left: 20rem;
-    padding-top: 3rem;
-    padding-bottom: 0.5rem;
     font-family: "moonbold", arial, sans-serif;
     font-size: 1rem;
+    text-align: left;
 }
 
 .faq-answers p {
     max-width: 45rem;
-    margin-left: 23rem;
     font-family: "open_sansregular", arial, sans-serif;
+    text-align: left;
 }
 
 .faq-answers a {
     margin-right: 15rem;
     padding-bottom: 2rem;
-    text-align: right;
     font-family: "open_sansregular", arial, sans-serif;
     font-size: 0.75rem;
 }
