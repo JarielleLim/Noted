@@ -697,23 +697,15 @@ input[type="date"]:focus {
 }
 
 .faq-list li {
-    margin-left: 20rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 0rem 0.5rem 20rem;
     text-decoration: none;
     font-family: "moonlight", arial, sans-serif;
     list-style-type: none;
 }
 
-@media (max-width: 40em) {
-    .faq-flex li {
-        width: 100%;
-    }
-}
-
-.faq-listq:focus, .faq-listq:hover {
+/*.faq-list:focus, .faq-list:hover {
     text-decoration: underline;
-}
+}*/
 
 .faq-answers {
     background-color: #F7E6B5;

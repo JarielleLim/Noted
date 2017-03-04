@@ -84,3 +84,17 @@ Made use of in lecture tutorial
 	display: block;
 	clear: both;
 }
+
+/* ------- FAQ page media queries ----- */
+
+@media (max-width: 40em) {
+    .faq-list li {
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+}
+
+@media (max-width: 60em) {
+    .faq-list li {
+        padding: 0.5rem 0rem 0.5rem 6rem;
+    }
+}
