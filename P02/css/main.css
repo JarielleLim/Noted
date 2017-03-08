@@ -182,11 +182,11 @@ p {
 }
 
 #featured-products {
-  padding-bottom: 5em;
+    padding-bottom: 5em;
 }
 
 #featured-products-title {
-  padding-top: 1.5em;
+    padding-top: 1.5em;
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -450,10 +450,20 @@ input[type="date"]:focus {
     justify-content: center;
 }
 
+.cart-flex-item.titles {
+    border: none;
+}
+
+.cart-flex-item.titles p {
+    color: #EAEAEA;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    padding: 0em 1em;
+}
+
 .cart-flex-item.totals {
     border-top: none;
 }
-
 
 /* ~~~~~~~~~~~~~~ */
 
@@ -468,6 +478,7 @@ input[type="date"]:focus {
 }
 
 .cart-flex-item img {
+  display: block;
     width: 100px;
     border-radius: 10px;
 }
@@ -480,23 +491,29 @@ input[type="date"]:focus {
 }
 
 .delete img {
+  display: block;
+  margin: 2em;
+  width: 20px;
     width: 20px;
     height: auto;
 }
 
 .like img {
+    display: block;
+    margin: 2em;
     width: 20px;
     height: auto;
+    text-align: center;
 }
 
 .delete {
-    max-width: 10%;
+    max-width: 15%;
     padding-left: 2em;
     flex-grow: 1;
 }
 
 .like {
-    max-width: 10%;
+    max-width: 15%;
     flex-grow: 1;
 }
 
@@ -511,7 +528,7 @@ input[type="date"]:focus {
 }
 
 .price {
-    max-width: 20%;
+    max-width: 15%;
     flex-grow: 3;
 }
 
@@ -521,6 +538,7 @@ input[type="date"]:focus {
     text-align: right;
     font-size: 1em;
     font-weight: bold;
+
 }
 
 .final {
@@ -602,9 +620,10 @@ input[type="date"]:focus {
 /* PRODUCT PAGE CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .product-name {
+    max-width: 40%;
     margin-bottom: 0;
     text-align: center;
-    padding-top:1.3em;
+    padding-top: 1.3em;
 }
 
 .product-price {
@@ -702,6 +721,7 @@ input[type="date"]:focus {
     font-family: "moonlight", arial, sans-serif;
     list-style-type: none;
 }
+
 
 /*.faq-list:focus, .faq-list:hover {
     text-decoration: underline;
