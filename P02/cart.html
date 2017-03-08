@@ -7,11 +7,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 
-	<title>Your Cart</title>
+	<title>About Noted</title>
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/grids.css">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
 
 
 </head>
@@ -87,6 +87,10 @@
 								<p>name</p>
 							</div>
 
+							<div class="quantity">
+								<p>quantity</p>
+							</div>
+
 							<div class="price">
 								<p>price</p>
 							</div>
@@ -104,6 +108,14 @@
 							<div class="prodName">
 								<h4>Bees n' Cats (Dotted)</h4></div>
 
+								<div class="quantity">
+									<select name="quant" id="quant">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</div>
+
 							<div class="price">
 								<p>$14.00 CAD</p>
 							</div>
@@ -120,21 +132,29 @@
 							<div class="prodName">
 								<h4>Astronauts (Plain)</h4></div>
 
+								<div class="quantity">
+									<select name="quant" id="quant">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</div>
+
 							<div class="price">
 								<p>$10.00 CAD</p>
 							</div>
 
 						</div>
 
-						<div class="cart-flex-item">
+						<div class="cart-flex-item" id="total-price">
 
-							<div class="delete">&nbsp; </div>
+							<div class="delete"> </div>
 
-							<div class="like">&nbsp; </div>
+							<div class="like"> </div>
 
-							<div class="image">&nbsp; </div>
+							<div class="image"> </div>
 
-							<div class="prodName">&nbsp; </div>
+							<div class="prodName"> </div>
 
 							<div class="total">
 								<p>Before Tax: </p>
