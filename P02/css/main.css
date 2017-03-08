@@ -13,6 +13,9 @@
  pink: #C02943
  */
 
+
+/* NORMALIZING~~~~~~~~~~~~~~~~~~ */
+
 .button-default {
     display: inline-block;
     padding: 1.5em 2em;
@@ -437,6 +440,7 @@ input[type="date"]:focus {
     color: #C02943;
 }
 
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .cart-flex-item {
@@ -464,6 +468,7 @@ input[type="date"]:focus {
     border-top: none;
 }
 
+
 /* ~~~~~~~~~~~~~~ */
 
 .cart-item-display {
@@ -477,7 +482,7 @@ input[type="date"]:focus {
 }
 
 .cart-flex-item img {
-  display: block;
+    display: block;
     width: 100px;
     border-radius: 10px;
 }
@@ -485,14 +490,9 @@ input[type="date"]:focus {
 
 /* ~~~~~~~~~~~~~ */
 
-.filler {
-    flex-grow: 5;
-}
-
 .delete img {
-  display: block;
-  margin: 2em;
-  width: 20px;
+    display: block;
+    margin: 2em;
     width: 20px;
     height: auto;
 }
@@ -502,12 +502,10 @@ input[type="date"]:focus {
     margin: 2em;
     width: 20px;
     height: auto;
-    text-align: center;
 }
 
 .delete {
     max-width: 15%;
-    padding-left: 2em;
     flex-grow: 1;
 }
 
@@ -517,13 +515,27 @@ input[type="date"]:focus {
 }
 
 .image {
-    max-width: 20%;
     flex-grow: 2;
 }
 
+
+.quantity{
+  flex-grow: 2;
+}
+
+.quantity select#quant{
+  padding:0.3em;
+  margin:0 4em;
+}
+
+.quantity p{
+  margin:1em;
+}
+
+
 .prodName {
     max-width: 40%;
-    flex-grow: 7;
+    flex-grow: 4;
 }
 
 .price {
@@ -537,7 +549,6 @@ input[type="date"]:focus {
     text-align: right;
     font-size: 1em;
     font-weight: bold;
-
 }
 
 .final {
@@ -584,6 +595,7 @@ input[type="date"]:focus {
     font-family: "moonbold", arial, sans-serif;
     flex-direction: column;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .cart-shipping-flex label {
@@ -619,7 +631,6 @@ input[type="date"]:focus {
 /* PRODUCT PAGE CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .product-name {
-    max-width: 40%;
     margin-bottom: 0;
     text-align: center;
     padding-top: 1.3em;
