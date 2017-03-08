@@ -49,6 +49,32 @@ Made use of in lecture tutorial
     }
 }
 
+@media (max-width: 1100px) {
+    .event-item {
+        flex-direction: column;
+    }
+
+		.events-img {
+        margin:auto;
+
+    }
+
+		.events-content {
+				margin: auto;
+				padding: 0em 6em 4em 6em;
+		}
+
+		.events-title {
+				margin:auto;
+				text-align: center;
+		}
+
+		.events{
+			margin:auto;
+			padding:0;
+		}
+}
+
 @media (max-width: 900px) {
     /*cart items~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     .cart-title-flex {

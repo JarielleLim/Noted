@@ -801,6 +801,9 @@ h1 {
     background-color: white;
 }
 
+.events h1{
+  padding: 2em 0em;
+}
 .events-flex {
     display: flex;
     flex-direction: column;
@@ -812,18 +815,17 @@ h1 {
 }
 
 .events-img {
-    width: 30%;
+
     flex-grow: 2;
 }
 
 .events-img img {
-    width: 100%;
+    width: 400px;
     height: auto;
     padding-bottom: 2em;
 }
 
 .events-content {
-    width: 40%;
     padding: 2em;
     flex-grow: 3;
     padding-top: 0;
