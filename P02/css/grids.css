@@ -4,97 +4,149 @@ Citations:
 Made use of in lecture tutorial
 */
 
+
 /** {
 	box-sizing; border-box;
 }*/
 
 [class^='grid-col-'] {
-	float: left;
+    float: left;
 }
 
 .product-container .grid-col-1of3 {
-	height: 400px;
+    height: 400px;
 }
 
+
 /* when the width is more than 30, then make the colums stack*/
+
 .grid-col-1of3 {
-	width: 100%;
+    width: 100%;
 }
 
 
 /* when the width is more than 30, then make the columns inline*/
+
 @media (min-width: 43em) {
-	.grid-col-1of3 {
-		width: 33%;
-	}
+    .grid-col-1of3 {
+        width: 33%;
+    }
 }
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 @media (max-width: 900px) {
-	.cart-container .cart-flex-item {
-		flex-direction: column;
-	}
+    /*cart items~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .cart-title-flex {
+        flex-direction: column;
+        margin-left: auto;
+    }
+    .cart-title-flex h2 {
+        margin: 1em;
+        padding: 0;
+    }
+    .cart-container .cart-flex-item {
+        flex-direction: column;
+    }
+    .cart-flex-item.titles {
+        display: none;
+    }
+    .cart-flex-item .delete img {
+        margin: 2em 0;
+    }
+    .cart-flex-item .like img {
+        margin: 2em 0;
+    }
+    .cart-flex-item .prodName h4 {
+        text-align: center;
+        margin: 2em 0;
+    }
+    .cart-flex-item .price {
+        max-width: none;
+    }
+    .cart-flex-item .price p {
+        text-align: center;
+    }
 
-	.cart-flex-item.titles {
-	    display: none; 
-	}
+    .cart-flex-item#total-price {
+        flex-direction: row;
+				margin:auto;
+				width: 50%;
+        text-align: center;
+    }
+    .cart-flex-item#total-price .delete {
+        display: none;
+    }
+    .cart-flex-item#total-price .like {
+        display: none;
+    }
+    .cart-flex-item#total-price .prodName {
+        display: none;
+    }
+    .cart-flex-item#total-price .image {
+        display: none;
+    }
+    .cart-flex-item#total-price .delete {
+        display: none;
+    }
+
+		.cart-flex-item#total-price .price p {
+				text-align: left;
+		}
+		.cart-flex-item#total-price .total {
+				max-width: none;
+		}
 }
 
 @media (max-width: 850px) {
-	.welcome-banner-text{
-		top:4%;
-
-	}
+    .welcome-banner-text {
+        top: 4%;
+    }
 }
 
 @media (max-width: 650px) {
-	.nav-item.logo{
-		order: -1;
-	}
-
-	.nav-item{
-		padding: 1.5em;
-	}
-
-	.cart{
-		float: none;
-	}
-
-	.welcome-banner-text{
-		top:12%;
-		font-size: 40%;
-	}
+    .nav-item.logo {
+        order: -1;
+    }
+    .nav-item {
+        padding: 1.5em;
+    }
+    .cart {
+        float: none;
+    }
+    .welcome-banner-text {
+        top: 12%;
+        font-size: 40%;
+    }
+    .main-nav-flex {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
 }
 
-
 @media (max-width: 500px) {
-	.welcome-banner-text{
-		top:12%;
-	}
+    .welcome-banner-text {
+        top: 12%;
+    }
 }
 
 @media (max-width:400px) {
-	.nav-item{
-		padding: 1.5em;
-	}
-
-	.main-nav-flex{
-		-webkit-flex-direction: column;
-   		flex-direction: column;
-	}
-
-	.welcome-banner-text{
-		top:22%;
-		font-size: 30%;
-	}
+    .welcome-banner-text {
+        top: 22%;
+        font-size: 30%;
+    }
 }
+
 
 /*clearing the float*/
+
 .product-container:after {
-	content: "";
-	display: block;
-	clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
+
 
 /* ------- FAQ page media queries ----- */
 

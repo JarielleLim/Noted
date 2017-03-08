@@ -47,3 +47,11 @@ border-top: 4px dashed #C02943;
 TO CENTER IMAGE
 display: block;
 margin: auto;
+
+TO DELETE OFF OF PAGE
+ display: none;
+
+ CLASS SELECTOR NOTES:
+ .class1.class2 means <div class="class1 class2"></div>
+
+ .class1 .class2 means <div class="class1><div class="class2"></div></div>
