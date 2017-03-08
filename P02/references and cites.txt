@@ -10,8 +10,8 @@ CSS Tables: https://www.w3schools.com/css/css_table.asp
 CSS3 flexbox: https://www.w3schools.com/css/css3_flexbox.asp
 special characters reference: http://www.degraeve.com/reference/specialcharacters.php
 
-Images: 
-Product grid listing: 
+Images:
+Product grid listing:
 http://static6.notemaker.com.au/media/catalog/product/cache/1/small_image/448x668/17f82f742ffe127f42dca9de82fb58b1/d/c/dc-16882_01.jpg
 http://static6.notemaker.com.au/media/catalog/product/cache/1/small_image/448x668/17f82f742ffe127f42dca9de82fb58b1/d/c/dc-16655_01.jpg
 http://static6.notemaker.com.au/media/catalog/product/cache/1/small_image/448x668/17f82f742ffe127f42dca9de82fb58b1/d/c/dc-16302_01.jpg
@@ -43,3 +43,7 @@ z-index >>whats on top
 
 dashed top border
 border-top: 4px dashed #C02943;
+
+TO CENTER IMAGE
+display: block;
+margin: auto;

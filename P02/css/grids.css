@@ -32,8 +32,11 @@ Made use of in lecture tutorial
 
 @media (max-width: 900px) {
 	.cart-container .cart-flex-item {
-
 		flex-direction: column;
+	}
+
+	.cart-flex-item.titles {
+	    display: none; 
 	}
 }
 
