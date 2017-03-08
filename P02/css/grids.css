@@ -4,36 +4,6 @@ Citations:
 Made use of in lecture tutorial
 */
 
-
-/** {
-	box-sizing; border-box;
-}*/
-
-[class^='grid-col-'] {
-    float: left;
-}
-
-.product-container .grid-col-1of3 {
-    height: 400px;
-}
-
-
-/* when the width is more than 30, then make the colums stack*/
-
-.grid-col-1of3 {
-    width: 100%;
-}
-
-
-/* when the width is more than 30, then make the columns inline*/
-
-@media (min-width: 43em) {
-    .grid-col-1of3 {
-        width: 33%;
-    }
-}
-
-
 @media (min-width: 1500px) {
     .about-flex-text {
         margin: 0.3em 26em;
@@ -193,15 +163,6 @@ Made use of in lecture tutorial
         top: 22%;
         font-size: 30%;
     }
-}
-
-
-/*clearing the float*/
-
-.product-container:after {
-    content: "";
-    display: block;
-    clear: both;
 }
 
 
