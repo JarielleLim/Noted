@@ -29,6 +29,14 @@ Made use of in lecture tutorial
 	}
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media (max-width: 900px) {
+	.cart-container .cart-flex-item {
+
+		flex-direction: column;
+	}
+}
+
 @media (max-width: 850px) {
 	.welcome-banner-text{
 		top:4%;
