@@ -792,6 +792,7 @@ h1 {
     text-align: center;
     flex-grow: 3;
     line-height: 2em;
+    margin: 0.3em 10em;
 }
 
 .events {

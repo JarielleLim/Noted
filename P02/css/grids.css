@@ -34,7 +34,20 @@ Made use of in lecture tutorial
 }
 
 
+@media (min-width: 1500px) {
+    .about-flex-text {
+        margin: 0.3em 26em;
+    }
+}
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media (max-width: 1200px) {
+    .about-flex-text {
+        margin: 0.3em 3em;
+    }
+}
 
 @media (max-width: 900px) {
     /*cart items~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -68,11 +81,10 @@ Made use of in lecture tutorial
     .cart-flex-item .price p {
         text-align: center;
     }
-
     .cart-flex-item#total-price {
         flex-direction: row;
-				margin:auto;
-				width: 50%;
+        margin: auto;
+        width: 50%;
         text-align: center;
     }
     .cart-flex-item#total-price .delete {
@@ -90,13 +102,12 @@ Made use of in lecture tutorial
     .cart-flex-item#total-price .delete {
         display: none;
     }
-
-		.cart-flex-item#total-price .price p {
-				text-align: left;
-		}
-		.cart-flex-item#total-price .total {
-				max-width: none;
-		}
+    .cart-flex-item#total-price .price p {
+        text-align: left;
+    }
+    .cart-flex-item#total-price .total {
+        max-width: none;
+    }
 }
 
 @media (max-width: 850px) {
