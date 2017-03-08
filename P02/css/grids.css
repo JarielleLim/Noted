@@ -160,12 +160,32 @@ Made use of in lecture tutorial
         -webkit-flex-direction: column;
         flex-direction: column;
     }
+
+		.about-flex-text {
+				margin: 0.3em 0em;
+				padding: 2em;
+		}
+
+		.about-flex-image {
+				margin: auto;
+				width: 50%;
+				padding: 5em 1em 0em 1em;
+		}
 }
 
 @media (max-width: 500px) {
     .welcome-banner-text {
         top: 12%;
     }
+
+		.event-title h3{
+			flex-direction: column;
+			text-align: center;
+		}
+
+		.event-title{
+			flex-direction: column;
+		}
 }
 
 @media (max-width:400px) {

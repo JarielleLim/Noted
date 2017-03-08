@@ -87,6 +87,10 @@ h3, h4 {
     letter-spacing: 1px;
 }
 
+h3{
+  font-size: 1.4em;
+}
+
 a {
     color: #2E2633;
     text-decoration: none;
