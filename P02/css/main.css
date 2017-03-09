@@ -599,7 +599,6 @@ input[type="date"]:focus {
     border: 2px solid #EAEAEA;
     border-top: 20px solid #C02943;
     background: white;
-    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -609,6 +608,9 @@ input[type="date"]:focus {
     margin: 0em 5em;
 }
 
+.cart-shipping-item{
+}
+
 .cart-shipping-title {
     display: flex;
     padding-top: 2em;
@@ -616,19 +618,21 @@ input[type="date"]:focus {
     font-family: "moonbold", arial, sans-serif;
     flex-direction: column;
     letter-spacing: 2px;
-    text-align: center;
 }
 
 .cart-shipping-flex label {
     padding: 0.5em;
     padding-top: 3em;
     color: #542437;
-    text-align: center;
+text-align: left;
+font-size: 0.7em;
 }
+
+
 
 .confirmed-info {
     padding-top: 3em;
-    text-align: center;
+
 }
 
 .confirmed-info h3 {
@@ -780,7 +784,7 @@ input[type="date"]:focus {
 }
 
 .faq-answers a {
-    padding-left: 23rem; 
+    padding-left: 23rem;
     font-family: "open_sansregular", arial, sans-serif;
     font-size: 0.75rem;
 }
@@ -1061,6 +1065,3 @@ td {
     text-decoration: none;
     font-family: "open_sansregular", arial, sans-serif;
 }
-
-
-
