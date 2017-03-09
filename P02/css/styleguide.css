@@ -135,3 +135,49 @@
     justify-content: center;
     list-style: none;
 }
+
+/* ----- Elements Sections CSS ------ */
+/* ----- Text Elements CSS ------ */
+
+.guide-subsec {
+    margin: 1em 0;
+    padding: 0.5rem 0rem 1rem 3rem;
+    border-bottom: 1px solid #333;
+}
+
+.guide-subsec code {
+    background-color: #F7E6B5;
+    padding: 0.5em 0.75em;
+    display: inline-block;
+    width: 50%;
+}
+
+.guide-subsec p {
+    margin-top: 0;
+    max-width: 45rem;
+    line-height: 2em;
+    font-family: "open_sansregular", arial, sans-serif;
+}
+
+.guide-subsec h1, h2, h3, h4 {
+    text-align: left; 
+    font-family: "moonbold", arial, sans-serif;
+}
+
+.guide-subsec li {
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    text-decoration: none;
+    font-family: "moonbold", arial, sans-serif;
+    list-style: none;
+}
+
+table {
+    width: 100%;
+    padding: 1rem 5rem 5rem 5rem;
+}
+
+td {
+    padding: 13px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
