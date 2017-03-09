@@ -252,6 +252,23 @@ p {
     color: #C02943;
 }
 
+#footer p {
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 0rem;
+}
+
+#footer a {
+    color: white;
+    font-family: "open_sanslight", arial, sans-serif;
+    padding-right: 2rem;
+    font-size: 0.75rem;
+}
+
+#footer a:hover, a:focus {
+    text-decoration: underline;
+}
+
 .contact-form {
     display: -webkit-flex;
     display: flex;
