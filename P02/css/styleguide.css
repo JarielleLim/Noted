@@ -1,0 +1,137 @@
+/* 
+	Style Guide CSS 
+	Because the style guide css was clashing with main.css
+	we created a separate file for the styleguide's CSS.
+*/
+
+/* ---- Nav items CSS ---- */
+
+.header-bar {
+    width: 100%;
+    background: white;
+}
+
+.cart {
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.cart img {
+    position: relative;
+    top: 0;
+    max-width: 50px;
+    float: right;
+    clear: left;
+    margin-top: 0px;
+    margin-right: 2em;
+    padding: 0px;
+}
+
+.main-nav-flex {
+    display: -webkit-flex;
+    display: flex;
+    margin: 0px;
+    padding: 1em;
+    -webkit-align-items: center;
+    align-items: center;
+    font-family: "moonbold", arial, sans-serif;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    list-style: none;
+    background: white;
+}
+
+.nav-item {
+    display: block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a {
+    display: block;
+    padding: 0em 1em;
+    color: #552437;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    border-bottom: 2px solid #C02943;
+}
+
+.nav-item.logo {
+    z-index: 9999;
+    margin: 0px;
+    font-family: "moonbold", arial, sans-serif;
+    order: 0;
+}
+
+.nav-item.logo img {
+    max-width: 80px;
+}
+
+.nav-item.logo a:hover {
+    border-bottom: none;
+    background: none;
+}
+
+/* ---- Header Area CSS ---- */
+
+.guide-header {
+    padding: 3rem;
+    background-color: #EAEAEA;
+}
+
+.guide-header h1 {
+	font-family: "moonbold", arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.guide-header a {
+    padding-right: 1rem;
+    text-decoration: none;
+}
+
+.subnav-item {
+    display: block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-item a {
+    display: block;
+    padding: 0em 1em;
+    color: #552437;
+    text-decoration: none;
+}
+
+.subnav-item a:hover, a:focus {
+    border-bottom: 1px solid #C02943;
+}
+
+.sub-nav-flex {
+    display: -webkit-flex;
+    display: flex;
+    margin: 0px;
+    -webkit-align-items: center;
+    align-items: center;
+    font-family: "open_sansbold", arial, sans-serif;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    list-style: none;
+}
