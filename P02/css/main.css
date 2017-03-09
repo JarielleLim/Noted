@@ -1061,3 +1061,57 @@ td {
     text-decoration: none;
     font-family: "open_sansregular", arial, sans-serif;
 }
+
+/* ---------------- Style Guide CSS -------------- */
+
+.guide-header {
+    padding: 5rem;
+    background-color: #EAEAEA;
+}
+
+.guide-header h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.guide-header a {
+    padding-right: 1rem;
+    text-decoration: none;
+}
+
+.subnav-item {
+    display: block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-item a {
+    display: block;
+    padding: 0em 1em;
+    color: #552437;
+    text-decoration: none;
+}
+
+.subnav-item a:hover, a:focus {
+    border-bottom: 1px solid #C02943;
+}
+
+.sub-nav-flex {
+    display: -webkit-flex;
+    display: flex;
+    margin: 0px;
+    -webkit-align-items: center;
+    align-items: center;
+    font-family: "open_sansbold", arial, sans-serif;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    list-style: none;
+}
+
+
+
