@@ -751,7 +751,6 @@ font-size: 0.7em;
 
 .faq-title {
     padding: 3rem;
-    background-color: #EAEAEA;
 }
 
 .faq-title h1 {
@@ -761,13 +760,20 @@ font-size: 0.7em;
 
 .faq-list {
     padding: 2.5rem 0rem 3rem 0rem;
+        background:#542437;
+
 }
 
 .faq-list li {
-    padding: 0.5rem 0rem 0.5rem 20.5rem;
+    padding: 0.8em 5em ;
     text-decoration: none;
     font-family: "moonbold", arial, sans-serif;
     list-style: none;
+
+}
+
+.faq-list li a{
+  color: white;
 }
 
 .faq-listq:hover, .faq-listq:focus {
@@ -775,39 +781,42 @@ font-size: 0.7em;
 }
 
 .faq-answers {
-    background-color: #F7E6B5;
+
     text-align: left;
     padding-bottom: 3rem;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 .faq-answers h2 {
     max-width: 45rem;
-    padding: 2rem 0rem 0rem 23rem;
+    padding-left: 0;
+    padding-top:2em;
     font-family: "moonbold", arial, sans-serif;
     font-size: 1rem;
     text-align: left;
 }
 
 .faq-answers p {
-    padding: 0rem 0rem 0rem 23rem;
+    /*padding: 0rem 0rem 0rem 23rem;*/
     max-width: 45rem;
     font-family: "open_sansregular", arial, sans-serif;
     text-align: left;
 }
 
 .faq-answers a {
-    padding-left: 23rem;
+    /*padding-left: 23rem;*/
     font-family: "open_sansregular", arial, sans-serif;
     font-size: 0.75rem;
+}
+
+.answer{
+  padding: 0em 8em;
 }
 
 .break {
     padding-bottom: 2rem;
     border-bottom: 1px dashed gray;
     display: block;
-    max-width: 50%;
-    margin-left: 23rem;
 }
 
 h1 {
