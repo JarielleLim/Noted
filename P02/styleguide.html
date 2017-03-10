@@ -250,7 +250,171 @@
 	</section> <!-- Interactive elements ends -->
 
 	<section id="combined-elements">
-	</section>
+
+		<section class="guide-subsec">
+			<h2>Main Navigation</h2>
+
+			<h3>CSS selector:</h3>
+			<p>
+				.main-nav-flex, .nav-item, .nav-item a, .nav-item a:hover, a:focus, .nav-item.logo, .nav-item.logo img, .nav-item.logo a:hover, a:focus
+			</p>
+
+			<h3>Sample code:</h3>
+			<code>
+				&lt;nav&gt;<br>
+					&lt;ul class="main-nav-flex"&gt;<br>
+						&lt;li class="nav-item"&gt;&lt;a href="products.html"&gt;Notebooks&lt;/a&gt;&lt;/li&gt;<br>
+						&lt;li class="nav-item"&gt;&lt;a href="about.html"&gt;About&lt;/a&gt;&lt;/li&gt;<br>
+						&lt;li class="nav-item logo"&gt;&lt;a href="index.html"&gt;&lt;img src="images/notedLogo.png" alt="logo"&gt;&lt;/a&gt;&lt;/li&gt;<br>
+						&lt;li class="nav-item"&gt;&lt;a href="#footer"&gt;Contact&lt;/a>&lt;/li&gt;<br>
+						&lt;li class="nav-item"&gt;&lt;a href="faq.html"&gt;FAQ&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;/ul&gt;<br>
+				&lt;/nav&gt;
+			</code>
+
+			<h3>Rendered element:</h3>
+			<nav>
+				<ul class="main-nav-flex">
+					<li class="nav-item"><a href="products.html">Notebooks</a></li>
+					<li class="nav-item"><a href="about.html">About</a></li>
+					<li class="nav-item logo"><a href="index.html"><img src="images/notedLogo.png" alt="logo"></a></li>
+					<li class="nav-item"><a href="#footer">Contact</a></li>
+					<li class="nav-item"><a href="faq.html">FAQ</a></li>
+				</ul>
+			</nav>  
+		</section>
+
+		<section class="guide-subsec">
+			<h2>Product Listing</h2>
+
+			<h3>CSS selector:</h3>
+			<p>
+				.product-flex, .item, .item-image, .detail-text, .details:hover .item-image, .details:hover .detail-text, .detail-heading, product-name, .product-price, .product-price:hover, .product-price:focus
+			</p>
+
+			<h3>Sample code:</h3>
+			<code>
+				&lt;div class="product-flex"&gt;<br>
+					&lt;div class="item"&gt;<br>
+						&lt;div class="details"&gt;<br>
+							&lt;a href="itemDetail.html"&gt;<br>
+								&lt;img src="images/product1.jpg" class="item-image" alt="Product"/&gt;<br>
+								&lt;div class="detail-text"&gt;<br>
+									&lt;h4 class="detail-heading"&gt;Details&lt;/h4&gt;<br>
+								&lt;/div&gt;<br>
+							&lt;/a&gt;<br>
+						&lt;/div&gt;<br>
+
+						&lt;h4 class="product-name"&gt;Bees n' Cats&lt;/h4&gt;<br>
+						&lt;p class="product-price"&gt;$14.99 CAD&lt;/p&gt;<br>
+					&lt;/div&gt;<br>
+				&lt;/div&gt;
+			</code>
+
+			<h3>Rendered element:</h3>
+			<div class="product-flex">
+				<div class="item">
+					<div class="details">
+						<a href="itemDetail.html">
+							<img src="images/product1.jpg" class="item-image" alt="Product" />
+							<div class="detail-text">
+								<h4 class="detail-heading">Details</h4>
+							</div>
+						</a>
+					</div>
+
+					<h4 class="product-name">Bees n' Cats</h4>
+					<p class="product-price">$14.99 CAD</p>
+				</div>
+
+				<div class="item">
+					<div class="details">
+						<a href="itemDetail.html">
+							<img src="images/product2.jpg" class="item-image" alt="Product" />
+							<div class="detail-text">
+								<h4 class="detail-heading">Details</h4>
+							</div>
+						</a>
+					</div>
+
+					<h4 class="product-name">Astronauts</h4>
+					<p class="product-price">$14.99 CAD</p>
+				</div>
+
+				<div class="item">
+					<div class="details">
+						<a href="itemDetail.html">
+							<img src="images/product3.jpg" class="item-image" alt="Product" />
+							<div class="detail-text">
+								<h4 class="detail-heading">Details</h4>
+							</div>
+						</a>
+					</div>
+
+					<h4 class="product-name">Jumping Puppies</h4>
+					<p class="product-price">$14.99 CAD</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="guide-subsec">
+			<h2>News section</h2>
+
+			<h3>CSS selector:</h3>
+			<p>
+				.events, .events-flex, .event-item, .events-img, .events-img img, .events-content, .event-title, .event-title img, .event-date
+			</p>
+
+			<h3>Sample code:</h3>
+			<code>
+				&lt;section class="events"&gt;<br>
+					&lt;div class="events-flex"&gt;<br>
+						&lt;div class="event-item"&gt;<br>
+							&lt;div class="events-img"&gt;<br>
+								&lt;img src="images/eventspic1.jpg" alt="contest"/&gt;<br>
+							&lt;/div&gt;<br>
+
+							&lt;div class="events-content"&gt;<br>
+								&lt;div class="event-title"&gt;<br>
+									&lt;img src="images/book.png" alt="book icon"/&gt;<br>
+									&lt;h3&gt; New Contest out!&lt;/h3&gt;<br>
+									&lt;div class="event-date"&gt;02 / 22 / 17&lt;/div&gt;<br>
+								&lt;/div&gt;<br>
+
+								&lt;p class="event-description"&gt;<br>
+									Our latest contest is out--and this time, with cool new prizes such as our newest notebooks from our partnership with 'The perfect sketchbook'! One lucky winner will get their very own copy, sent to them for free just by submitting a picture of simple
+									doodle/ notes taken in any of our notebooks! &lt;a href="#" class="text-link">Read more &lt;/a&gt;&lt;/p&gt;<br>
+							&lt;/div&gt;<br>
+						&lt;/div&gt;<br>
+					&lt;/div&gt;<br>
+				&lt;/section&gt;
+			</code>
+
+			<h3>Rendered element:</h3>
+			<section class="events">
+				<div class="events-flex">
+					<div class="event-item">
+						<div class="events-img">
+							<img src="images/eventspic1.jpg" alt="contest" />
+						</div>
+
+						<div class="events-content">
+							<div class="event-title">
+								<img src="images/book.png" alt="book icon" />
+								<h3> New Contest out!</h3>
+								<div class="event-date">02 / 22 / 17</div>
+							</div>
+
+							<p class="event-description">
+								Our latest contest is out--and this time, with cool new prizes such as our newest notebooks from our partnership with 'The perfect sketchbook'! One lucky winner will get their very own copy, sent to them for free just by submitting a picture of simple
+								doodle/ notes taken in any of our notebooks! <a href="#" class="text-link">Read more </a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+
+	</section> <!-- Combined elements ends -->
 
 </body>
 
