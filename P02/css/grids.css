@@ -282,3 +282,14 @@
         font-size: 0.75em;
     }
 }
+
+/* ------ Style Guide ------ */
+
+@media (max-width: 40em) {
+    .guide-subsec {
+        padding: 0.5rem 0rem 1rem 1.5rem; 
+    }
+    .guide-header {
+        padding-top: 1.5rem;
+    }
+}
