@@ -458,3 +458,38 @@ input[type="text"]:focus {
     font-family: "open_sansregular", arial, sans-serif;
     font-size: 0.5em;
 }
+
+/* ------ Form elements CSS ------ */
+
+.contact-form {
+    display: -webkit-flex;
+    display: flex;
+    padding: 2em;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#footer {
+    text-align: left;
+}
+
+#footer h2 {
+    padding: 0.5em;
+    color: #C02943;
+}
+
+label {
+    color: #2E2633;
+    text-align: center;
+    font-family: "moonbold", arial, sans-serif;
+    font-size: 12px;
+}
+
+.email {
+    padding: 1.5em;
+    font-size: 0.6em;
+}
