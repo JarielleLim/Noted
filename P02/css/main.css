@@ -51,6 +51,7 @@
 
 .container {
     background-color: #F7F7F7;
+    border-top: #EAEAEA 5px solid;
 }
 
 body {
@@ -425,7 +426,7 @@ input[type="date"]:focus {
 
 .cart-title-flex {
     display: flex;
-    margin-top: 2em;
+
     margin-left: 5em;
     align-items: center;
     flex-direction: row;
@@ -451,6 +452,7 @@ input[type="date"]:focus {
 .current {
     color: #C02943;
 }
+
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -488,8 +490,6 @@ input[type="date"]:focus {
 }
 
 .cart-item-display.confirm {
-    padding-top: 4em;
-
 }
 
 .cart-flex-item img {
@@ -583,8 +583,9 @@ input[type="date"]:focus {
 
 .cart-shipping-flex {
     display: flex;
-    padding: 1em;
+    padding: 0em 2em;
     padding-bottom: 6em;
+    margin-bottom: 2em;
     border: 2px solid #EAEAEA;
     border-top: 20px solid #C02943;
     background: white;
@@ -602,11 +603,17 @@ input[type="date"]:focus {
 
 .cart-shipping-title {
     display: flex;
-    padding: 0em 4em;
+    padding: 1em 4em;
     border-bottom: 2px solid #F7E6B5;
     font-family: "moonbold", arial, sans-serif;
     flex-direction: column;
     letter-spacing: 2px;
+    text-align: center;
+}
+
+.cart-shipping-title#ship-title{
+  text-align: left;
+padding: 1em 0em;
 }
 
 .cart-shipping-flex label {
@@ -617,7 +624,10 @@ text-align: left;
 font-size: 0.7em;
 }
 
+#address, #exp-date{
 
+  width: 10em;
+}
 
 .confirmed-info {
     padding-top: 3em;
@@ -647,7 +657,7 @@ font-size: 0.7em;
 
 .product-name {
     margin-bottom: 0;
-    text-align: center;
+    text-align:se center;
     padding-top: 1.3em;
 }
 
