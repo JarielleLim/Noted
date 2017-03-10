@@ -23,26 +23,21 @@ Made use of in lecture tutorial
     .event-item {
         flex-direction: column;
     }
-
-		.events-img {
-        margin:auto;
-
+    .events-img {
+        margin: auto;
     }
-
-		.events-content {
-				margin: auto;
-				padding: 0em 6em 4em 6em;
-		}
-
-		.events-title {
-				margin:auto;
-				text-align: center;
-		}
-
-		.events{
-			margin:auto;
-			padding:0;
-		}
+    .events-content {
+        margin: auto;
+        padding: 0em 6em 4em 6em;
+    }
+    .events-title {
+        margin: auto;
+        text-align: center;
+    }
+    .events {
+        margin: auto;
+        padding: 0;
+    }
 }
 
 @media (max-width: 1020px) {
@@ -104,6 +99,10 @@ Made use of in lecture tutorial
     .cart-flex-item#total-price .total {
         max-width: none;
     }
+
+    .cart-title-flex {
+      padding: 3em 0em;
+    }
 }
 
 @media (max-width: 850px) {
@@ -130,48 +129,41 @@ Made use of in lecture tutorial
         -webkit-flex-direction: column;
         flex-direction: column;
     }
-
-		.about-flex-text {
-				margin: 0.3em 0em;
-				padding: 2em;
-		}
-
-		.about-flex-image {
-				margin: auto;
-				width: 50%;
-				padding: 5em 1em 0em 1em;
-		}
-
+    .about-flex-text {
+        margin: 0.3em 0em;
+        padding: 2em;
+    }
+    .about-flex-image {
+        margin: auto;
+        width: 50%;
+        padding: 5em 1em 0em 1em;
+    }
     .cart-shipping-title {
-      padding: 1em;
+        padding: 1em;
+    }
+    #address, #exp-date, #card-num {
+        width: 90%;
+    }
+    .cart-shipping-flex select {
+        width: 100%;
+    }
+    .quantity select#quant {
+        width: auto;
     }
 
-    #address, #exp-date, #card-num{
-      width: 90%;
-    }
-
-    .cart-shipping-flex select{
-      width: 100%;
-    }
-
-.quantity select#quant{
-  width: auto;
-}
 }
 
 @media (max-width: 500px) {
     .welcome-banner-text {
         top: 12%;
     }
-
-		.event-title h3{
-			flex-direction: column;
-			text-align: center;
-		}
-
-		.event-title{
-			flex-direction: column;
-		}
+    .event-title h3 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .event-title {
+        flex-direction: column;
+    }
 }
 
 @media (max-width:400px) {
@@ -188,30 +180,26 @@ Made use of in lecture tutorial
     .faq-list li {
         padding: 0.5rem 0rem 0.5rem 0rem;
     }
-
     .faq-list {
         padding: 1rem 0rem 1rem 0rem;
     }
-
     .faq-answers h2 {
         padding: 2rem 0rem 0rem 2rem;
         max-width: 23rem;
     }
-
     .faq-answers p {
         padding: 0rem 0rem 0rem 2rem;
         max-width: 20rem;
     }
-
     .faq-answers a {
         padding-left: 2rem;
     }
-
     #break {
         margin-left: 2rem;
         max-width: 80%;
     }
 }
+
 
 /* -------- Product Lisitng -------- */
 
@@ -220,11 +208,9 @@ Made use of in lecture tutorial
         height: 2.5rem;
         width: 20rem;
     }
-
     .opt-title {
         font-size: 1rem;
     }
-
     .opt {
         padding: 0em;
         text-align: left;
