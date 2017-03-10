@@ -103,6 +103,10 @@ Made use of in lecture tutorial
     .cart-title-flex {
       padding: 3em 0em;
     }
+
+    .thanks img{
+      width: 70%;
+    }
 }
 
 @media (max-width: 850px) {
@@ -141,6 +145,10 @@ Made use of in lecture tutorial
     .cart-shipping-title {
         padding: 1em;
     }
+
+    .cart-container{
+      margin: 0em;
+    }
     #address, #exp-date, #card-num {
         width: 90%;
     }
@@ -150,6 +158,11 @@ Made use of in lecture tutorial
     .quantity select#quant {
         width: auto;
     }
+
+.thanks{
+  padding: 4em 0em;
+}
+
 
 }
 
