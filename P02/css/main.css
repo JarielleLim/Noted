@@ -50,7 +50,6 @@
 }
 
 .container {
-    border-top: 5px solid #EAEAEA;
     background-color: #F7F7F7;
 }
 
@@ -683,6 +682,11 @@ font-size: 0.7em;
 
 .opt-title {
     font-size: 1rem;
+}
+
+.opt-box {
+    height: 2.5rem;
+    width: 8rem;
 }
 
 .number-of-pages {

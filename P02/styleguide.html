@@ -217,34 +217,58 @@
 			<h2>Text Input Field</h2>
 
 			<h3>CSS Selector:</h3>
-			<p>.form-input</p>
+			<p>
+				form .row, input[type="text"], input[type="text"]:focus
+			</p>
 
 			<h3>Sample code:</h3>
 			<code>
-				&lt;input class="form-input" type="text" name="entertext" placeholder="Enter text"&gt;
+				&lt;form&gt;<br>
+					&lt;div class="row"&gt;<br>
+						&lt;input id="name" class="input" name="name" type="text" value="" size="40" /&gt;<br>
+					&lt;/div&gt;<br>
+				&lt;/form&gt;
 			</code>
 
 			<h3>Rendered element:</h3>
-			<input class="form-input" type="text" name="entertext" placeholder="Enter text">
+			<form>
+				<div class="row">
+					<input id="name" class="input" name="name" type="text" value="" size="40" />
+				</div>
+			</form>
 		</section>
 
 		<section class="guide-subsec">
 			<h2>Drop down menu</h2>
 
 			<h3>CSS Selector:</h3>
-			<p>.form-input</p>
+			<p>
+				select, .options-flex, .opt, .opt-title, .opt-box
+			</p>
 
 			<h3>Sample code:</h3>
 			<code>
-				&lt;input class="form-input" type="text" name="entertext" placeholder="Enter text"&gt;
+				&lt;div class="opt"&gt;<br>
+					&lt;label for="papertype"&gt;<br>
+						&lt;select class="opt-box" name="papertype" id="papertype"&gt;<br>
+							&lt;option value="dotted"&gt;dotted&lt;/option&gt;<br>
+							&lt;option value="grid"&gt;grid&lt;/option&gt;<br>
+							&lt;option value="blank"&gt;blank&lt;/option&gt;<br>
+						&lt;/select&gt;<br>
+					&lt;/label&gt;<br>
+				&lt;/div&gt;
 			</code>
 
 			<h3>Rendered element:</h3>
-			<select name="papertype" id="papertype">
-				<option value="dotted">dotted</option>
-				<option value="grid">grid</option>
-				<option value="blank">blank</option>
-			</select>
+			<div class="opt">
+				<label for="papertype">
+					<select class="opt-box" name="papertype" id="papertype">
+						<option value="dotted">dotted</option>
+						<option value="grid">grid</option>
+						<option value="blank">blank</option>
+					</select>
+				</label>
+			</div>
 		</section>
 
 	</section> <!-- Interactive elements ends -->

@@ -196,3 +196,21 @@ Made use of in lecture tutorial
         max-width: 80%;
     }
 }
+
+/* -------- Product Lisitng -------- */
+
+@media (max-width: 40em) {
+    .opt-box {
+        height: 2.5rem;
+        width: 20rem;
+    }
+
+    .opt-title {
+        font-size: 1rem;
+    }
+
+    .opt {
+        padding: 0em;
+        text-align: left;
+    }
+}
