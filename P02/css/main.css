@@ -516,12 +516,10 @@ input[type="date"]:focus {
 }
 
 .delete {
-    max-width: 15%;
     flex-grow: 1;
 }
 
 .like {
-    max-width: 15%;
     flex-grow: 1;
 }
 
@@ -545,7 +543,6 @@ input[type="date"]:focus {
 
 
 .prodName {
-    max-width: 40%;
     flex-grow: 4;
 }
 
@@ -566,7 +563,18 @@ input[type="date"]:focus {
     border-top: 2px solid #EAEAEA;
 }
 
+.edit{
+      flex-grow: 1;
+      padding: 2em 0em;
+      text-align: center;
+}
 
+.edit button{
+
+  padding:0.5em 0.8em;
+  font-size: 0.5em;
+
+}
 /* ~~~~Button placement styling~~~~~~~ */
 
 .procceed-flex {
@@ -657,7 +665,7 @@ font-size: 0.7em;
 
 .product-name {
     margin-bottom: 0;
-    text-align:se center;
+    text-align:center;
     padding-top: 1.3em;
 }
 
