@@ -54,11 +54,6 @@
     background-color: #F7F7F7;
 }
 
-.email {
-    padding: 1em;
-    font-size: 0.6em;
-}
-
 body {
     margin: 0px;
     padding: 0px;
@@ -272,8 +267,7 @@ p {
 .contact-form {
     display: -webkit-flex;
     display: flex;
-    padding: 5em;
-    padding-top: 2.5em;
+    padding: 2em;
     -webkit-align-items: center;
     align-items: center;
     -webkit-flex-direction: column;
@@ -282,10 +276,15 @@ p {
     flex-wrap: wrap;
 }
 
+.email {
+    padding: 1.5em;
+    font-size: 0.6em;
+}
+
 form .row {
     display: -webkit-flex;
     display: flex;
-    padding: 0.5em;
+    padding: 0.5rem 0rem 1.5rem 0rem;
 }
 
 label {
@@ -325,7 +324,7 @@ input[type="text"]:focus {
 }
 
 input[type="number"] {
-    padding: 1em 1em;
+    padding: 0.5em 1em;
     color: #555;
     background-color: #E6E6E6;
     font-size: 12px;
@@ -336,13 +335,6 @@ input[type="number"]:focus {
 }
 
 input[type="date"] {
-    padding: 0.5em 1em;
-    color: #555;
-    background-color: #E6E6E6;
-    font-size: 12px;
-}
-
-input[type="number"] {
     padding: 0.5em 1em;
     color: #555;
     background-color: #E6E6E6;
