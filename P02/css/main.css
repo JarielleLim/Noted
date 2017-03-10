@@ -586,6 +586,19 @@ input[type="date"]:focus {
     justify-content: center;
 }
 
+.return-buttons{
+  padding-bottom: 5em;
+}
+
+.procceed-flex.final-purchase {
+    display: flex;
+    padding-bottom: 1em;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 /* CART Shipping info~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -657,7 +670,7 @@ font-size: 0.7em;
 }
 
 .thanks img {
-    min-width: 100px;
+    width: 50%;
     padding-top: 2em;
 }
 
