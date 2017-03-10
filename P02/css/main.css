@@ -592,7 +592,7 @@ input[type="date"]:focus {
 .cart-shipping-flex {
     display: flex;
     padding: 0em 2em;
-    padding-bottom: 6em;
+    padding-bottom: 3em;
     margin-bottom: 2em;
     border: 2px solid #EAEAEA;
     border-top: 20px solid #C02943;
