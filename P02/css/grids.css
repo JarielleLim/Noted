@@ -196,20 +196,18 @@ Made use of in lecture tutorial
     .faq-list {
         padding: 1rem 0rem 1rem 0rem;
     }
+    .faq-answers {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
     .faq-answers h2 {
-        padding: 2rem 0rem 0rem 2rem;
-        max-width: 23rem;
+        max-width: 40rem;
     }
     .faq-answers p {
-        padding: 0rem 0rem 0rem 2rem;
-        max-width: 20rem;
+        max-width: 40rem;
     }
-    .faq-answers a {
-        padding-left: 2rem;
-    }
-    #break {
-        margin-left: 2rem;
-        max-width: 80%;
+    .sub-answers {
+        padding: 0rem 2.5rem;
     }
 }
 
@@ -232,6 +230,7 @@ Made use of in lecture tutorial
 
 /* --------- Product details --------- */
 /* --- Portrait view --- */
+
 @media (max-width: 50em) {
     .product-image {
         display: inline;
