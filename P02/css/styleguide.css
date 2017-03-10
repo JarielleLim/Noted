@@ -64,7 +64,7 @@
     text-decoration: none;
 }
 
-.nav-item a:hover {
+.nav-item a:hover a:focus {
     border-bottom: 2px solid #C02943;
 }
 
@@ -79,7 +79,7 @@
     max-width: 80px;
 }
 
-.nav-item.logo a:hover {
+.nav-item.logo a:hover a:focus {
     border-bottom: none;
     background: none;
 }
@@ -181,3 +181,71 @@ td {
     border-bottom: 1px solid black;
     text-align: left;
 }
+
+/* ----- Interactive Elements CSS ------ */
+
+.nav-flex {
+    display: -webkit-flex;
+    display: flex;
+    margin: 0px;
+    padding: 1em;
+    -webkit-align-items: left;
+    align-items: left;
+    font-family: "moonbold", arial, sans-serif;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: left;
+    justify-content: left;
+    list-style: none;
+    background: white;
+}
+
+.text-link {
+    color: #552437;
+    text-decoration: underline;
+}
+
+.text-link:focus, .text-link:hover {
+    color: #C22945;
+    text-decoration: underline;
+}
+
+.button-default {
+    display: inline-block;
+    padding: 1.5em 2em;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    background: #552437;
+    text-decoration: none;
+    font-family: "moonbold", arial, sans-serif;
+    font-size: 1em;
+    letter-spacing: 2px;
+    -webkit-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+
+.button-default:focus, .button-default:hover {
+    display: inline-block;
+    color: white;
+    background: #C22945;
+    text-decoration: none;
+}
+
+.button-default:active {
+    display: inline-block;
+    color: white;
+    border-radius: 1em;
+    background: #552437;
+    text-decoration: none;
+    font-family: "moonbold", arial, sans-serif;
+    -webkit-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+
+/* --- LEFT TO STYLE: INPUT FIELDS + DROPDOWN MENU --- */
+
+/* ----- Combined Elements CSS ------ */
+
