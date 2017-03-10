@@ -45,7 +45,7 @@ Made use of in lecture tutorial
 		}
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1020px) {
     /*cart items~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     .cart-title-flex {
         flex-direction: column;
@@ -141,6 +141,22 @@ Made use of in lecture tutorial
 				width: 50%;
 				padding: 5em 1em 0em 1em;
 		}
+
+    .cart-shipping-title {
+      padding: 1em;
+    }
+
+    #address, #exp-date, #card-num{
+      width: 90%;
+    }
+
+    .cart-shipping-flex select{
+      width: 100%;
+    }
+
+.quantity select#quant{
+  width: auto;
+}
 }
 
 @media (max-width: 500px) {
