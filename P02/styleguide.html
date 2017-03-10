@@ -477,6 +477,70 @@
 			</div>
 		</section>
 
+		<section class="guide-subsec">
+			<h2>Form element</h2>
+
+			<h3>CSS Selector:</h3>
+			<p>
+				.contact-form, label, .email<br>
+				#footer, #footer h2<br> 
+				form, form .row<br> 
+				input[type="text"], input[type="text"]:focus<br>
+				.button-default, .button-default:focus, .button-default:hover, .button-default:active
+			</p>
+
+			<h3>Sample code:</h3>
+			<code>
+				
+				&lt;form&gt;<br>
+				&lt;section id="footer"&gt;<br>
+					&lt;form class="contact-form" action="#" method="POST"&gt;<br>
+						&lt;h2>Send us an email!&lt;/h2&gt;<br>
+						&lt;label for="name"&gt;Your name:&lt;/label&gt;<br>
+						&lt;div class="row"&gt;<br>
+							&lt;input id="name" class="input" name="name" type="text" value="" size="40" /&gt;<br>
+						&lt;/div&gt;<br>
+
+						&lt;label for="email"&gt;Your email:&lt;/label&gt;<br>
+						&lt;div class="row"&gt;<br>
+							&lt;input id="email" class="input" name="email" type="text" value="" size="40" /&gt;<br>
+						&lt;/div&gt;<br>
+
+						&lt;label for="message"&gt;Your message:&lt;/label&gt;<br>
+						&lt;div class="row"&gt;<br>
+							&lt;textarea id="message" class="input" name="message" rows="7" cols="33"&gt;&lt;<br>/textarea&gt;<br>
+						&lt;/div&gt;<br>
+
+						&lt;input class="button-default email" type="submit" value="Send email" /&gt;<br>
+					&lt;/form&gt;<br>
+				&lt;/section&gt;
+
+			</code>
+
+			<h3>Rendered element:</h3>
+			<section id="footer">
+				<form class="contact-form" action="#" method="POST">
+					<h2>Send us an email!</h2>
+					<label for="name">Your name:</label>
+					<div class="row">
+						<input id="name" class="input" name="name" type="text" value="" size="40" />
+					</div>
+
+					<label for="email">Your email:</label>
+					<div class="row">
+						<input id="email" class="input" name="email" type="text" value="" size="40" />
+					</div>
+
+					<label for="message">Your message:</label>
+					<div class="row">
+						<textarea id="message" class="input" name="message" rows="7" cols="33"></textarea>
+					</div>
+
+					<input class="button-default email" type="submit" value="Send email" />
+				</form>
+			</section>
+		</section>
+
 	</section> <!-- Combined elements ends -->
 
 	<!-- FOOTER -->
