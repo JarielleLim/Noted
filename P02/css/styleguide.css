@@ -189,15 +189,15 @@ td {
     display: flex;
     margin: 0px;
     padding: 1em;
-    -webkit-align-items: left;
-    align-items: left;
+    -webkit-align-items: center;
+    align-items: center;
     font-family: "moonbold", arial, sans-serif;
     -webkit-flex-direction: row;
     flex-direction: row;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-justify-content: left;
-    justify-content: left;
+    -webkit-justify-content: initial;
+    justify-content: initial;
     list-style: none;
     background: white;
 }
