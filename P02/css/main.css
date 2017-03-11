@@ -892,9 +892,7 @@ h1 {
     flex-direction: row;
 }
 
-.events-img {
-    flex-grow: 2;
-}
+.events-img {}
 
 .events-img img {
     width: 400px;
