@@ -7,7 +7,7 @@
 */
 
 /*
-    COLORS 
+    COLORS
     Light Gray: #EAEAEA
     Dark Purple: #2E2633
     Magenta: #542437
@@ -477,6 +477,13 @@ input[type="date"]:focus {
     padding: 0em 1em;
 }
 
+.shipping-table-title{
+  color: #EAEAEA;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  padding: 0em 1em;
+}
+
 .cart-flex-item.totals {
     border-top: none;
 }
@@ -531,7 +538,7 @@ input[type="date"]:focus {
     flex-grow: 2;
 }
 
-.quantity select#quant{
+.quantity select.quant{
     padding:0.3em;
     margin:0 4em;
 }
