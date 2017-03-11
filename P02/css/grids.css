@@ -239,7 +239,6 @@
     }
 
     .product-image img {
-        /*margin: auto;*/
         width: 100%;
     }
 
@@ -271,6 +270,9 @@
     .button-default {
         padding: 1.5em 2em;
         font-size: 0.75em;
+    }
+    table {
+        padding: 1rem 2rem 4rem 2rem;
     }
 }
 
