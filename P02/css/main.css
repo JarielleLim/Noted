@@ -379,6 +379,14 @@ input[type="date"]:focus {
     border-radius: 9px;
 }
 
+.review-post{
+    padding: 2em;
+    border: 2px solid #EAEAEA;
+    margin: 2em 5em;
+    background: #F7F7F7;
+    border-radius: 9px;
+}
+
 .item-image {
     display: block;
     width: 280px;
@@ -1056,7 +1064,7 @@ td {
 
 .table-title {
     color: #542437;
-    font-family: "moonbold", arial, sans-serif; 
+    font-family: "moonbold", arial, sans-serif;
 }
 
 .product-review {
@@ -1065,21 +1073,24 @@ td {
 }
 
 .product-review h1 {
-    padding-top: 3rem;
+    padding-top: 1em;
     font-size: 1.5rem;
 }
 
 .product-review h2 {
-    padding-top: 3rem;
-    padding-left: 5rem;
     font-size: 1rem;
     text-align: left;
+    padding: 0;
 }
 
 .product-review p {
-    padding-right: 5rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
+}
+
+.review-date {
+    color: #2E2633;
+    opacity: 0.4;
+    font-family: "open_sansregular", arial, sans-serif;
+    font-size: 0.8em;
 }
 
 /* -------------- Citations page ------------- */
