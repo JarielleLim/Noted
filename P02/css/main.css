@@ -1034,6 +1034,7 @@ h1 {
 .product-about {
     display: block;
     background-color: #EAEAEA;
+        border-top: 4px dashed #C02943;
 }
 
 .product-about h1 {
@@ -1048,8 +1049,9 @@ h1 {
 }
 
 .product-specs {
-    background-color: #F7E6B5;
+    background-color: white;
     flex: 1 1 auto;
+
 }
 
 .product-specs h1 {
