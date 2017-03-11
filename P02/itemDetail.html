@@ -41,70 +41,73 @@
 		</nav>
 
 	</div>
+	<div class="container">
 	
-		<section id="sec-top" class="product-image">
-			<img src="images/product1.jpg" alt="Product"/>
-		</section>
-	
-		<section class="product-basics">
-			<h1>Bees n' cats (Dotted)</h1>
-			<h2>$10.99 CAD</h2>
-			<p>This notebook featuring gorgeous peacock design is a twist on the classic composition book used by children in Canadian elementary schools. <a class="text-link" href="#about">More</a><br>
+	<div class="details-flex">
+		<div class="product-basics-item">
+			<section id="sec-top" class="product-image">
+				<img src="images/product1.jpg" alt="Product"/>
+			</section>
+		
+			<section class="product-basics">
+				<h1>Bees n' cats (Dotted)</h1>
+				<h2>$10.99 CAD</h2>
+				<p>This notebook featuring gorgeous peacock design is a twist on the classic composition book used by children in Canadian elementary schools. <a class="text-link" href="#about">More</a><br>
+				<br>
+				SIZE: Large. <a class="text-link" href="#specs">More</a></p>
+				<button type="button" class="button-qty">-</button>
+				<input name="Quantity" type="text" value="0" size="1"/>
+				<button type="button" class="button-qty">+</button>
+				<button type="button" class="button-default">Add to Cart</button>
+			</section>
+		</div>
+
+		<section class="product-about" id="about">
+			<h1>About</h1>
+			<p>This notebook featuring a gorgeous peacock design is a twist on the classic composition book used by school children in Canadian elementary schools. <br>
 			<br>
-			SIZE: Large. <a class="text-link" href="#specs">More</a></p>
-			<button type="button" class="button-qty">-</button>
-			<input name="Quantity" type="text" value="0" size="1"/>
-			<button type="button" class="button-qty">+</button>
-			<button type="button" class="button-default">Add to Cart</button>
+			All notebooks are made from completely recycled materials. The 160 plain pages of unbleached white paper are made from 100% post-consumer waste in blue with an adjacent margin in red, and are micro-perforated for easier and neat page removal. The covers are heavy card and the energy used in production is bio-gas, with a spiral bind for even easier note-taking! The inside cover features all kinds of witty, useful information and sketches. <br>
+			<br>
+			All notebooks are made in Canada. As the name suggests they are less about what they were and what they are, and more about what they can become!</p>
 		</section>
-			
-		<div class="details-flex">
 
-			<section class="product-about" id="about">
-				<h1>About</h1>
-				<p>This notebook featuring a gorgeous peacock design is a twist on the classic composition book used by school children in Canadian elementary schools. <br>
-				<br>
-				All notebooks are made from completely recycled materials. The 160 plain pages of unbleached white paper are made from 100% post-consumer waste in blue with an adjacent margin in red, and are micro-perforated for easier and neat page removal. The covers are heavy card and the energy used in production is bio-gas, with a spiral bind for even easier note-taking! The inside cover features all kinds of witty, useful information and sketches. <br>
-				<br>
-				All notebooks are made in Canada. As the name suggests they are less about what they were and what they are, and more about what they can become!</p>
-			</section>
+		<section class="product-specs" id="specs">
+			<h1>Specifications</h1>
 
-			<section class="product-specs" id="specs">
-				<h1>Specifications</h1>
+			<table>
+				<tr>
+					<td class="table-title">QUANTITY</td>
+					<td>1 x notebook</td>
+				</tr>
+				<tr>
+					<td class="table-title">SIZE</td>
+					<td>Large - 19 x 24.5cm </td>
+				</tr>
+				<tr>
+					<td class="table-title">PAGES</td>
+					<td>160 Pages (80 Sheets) unbleached white paper</td>
+				</tr>
+				<tr>
+					<td class="table-title">STYLE</td>
+					<td>Plain</td>
+				</tr>
+				<tr>
+					<td class="table-title">COVER TYPE</td>
+					<td>Card cover</td>
+				</tr>
+				<tr>
+					<td class="table-title">MATERIALS</td>
+					<td>100% post-consumer waste paper, soy ink. Made using Bio-Gas & processed chlorine-free.</td>
+				</tr>
+				<tr>
+					<td class="table-title">SOURCE</td>
+					<td>Made in Canada</td>
+				</tr>
+			</table>
+		</section>
 
-				<table>
-					<tr>
-						<td>QUANTITY</td>
-						<td>1 x notebook</td>
-					</tr>
-					<tr>
-						<td>SIZE</td>
-						<td>Large - 19 x 24.5cm </td>
-					</tr>
-					<tr>
-						<td>PAGES</td>
-						<td>160 Pages (80 Sheets) unbleached white paper</td>
-					</tr>
-					<tr>
-						<td>STYLE</td>
-						<td>Plain</td>
-					</tr>
-					<tr>
-						<td>COVER TYPE</td>
-						<td>Card cover</td>
-					</tr>
-					<tr>
-						<td>MATERIALS</td>
-						<td>100% post-consumer waste paper, soy ink. Made using Bio-Gas & processed chlorine-free.</td>
-					</tr>
-					<tr>
-						<td>SOURCE</td>
-						<td>Made in Canada</td>
-					</tr>
-				</table>
-			</section>
-
-			<section class="product-review" id="reviews">
+		
+		<section class="product-review" id="reviews">
 				<h1>Reviews</h1>
 				<h2>By Payal K.<br>
 					From Calgary<br>
@@ -116,9 +119,11 @@
 				<form class="procceed-flex">
 					<button class="button-default" formaction="#reviews" > Write a review </button>
 				</form>
-			</section>
+		</section>
+		
 
 		</div> <!-- details flex end -->
+	</div>
 
 <!-- ~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<section id="footer">

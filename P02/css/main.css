@@ -917,22 +917,25 @@ h1 {
 
 /* --------- Product Basics (Image + Add to cart) Area ------- */
 
+.details-flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 3em;
+}
+
 .product-image {
     display: block;
+    flex-grow: 2;
 }
 
 .product-image img {
-    width: 50%;
-}
-
-.product-basics {
-    display: inline-block;
-    position: absolute;
-    top: 10rem;
-    right: 0;
-    width: 40%;
-    padding: 2rem 4rem 3rem 4rem;
-    background-color: white;
+    display: flex;
 }
 
 .product-basics h1 {
@@ -946,6 +949,7 @@ h1 {
     padding-bottom: 2rem;
     border-bottom: 1px solid black;
     font-size: 1.5rem;
+    padding-left: 0rem;
 }
 
 .product-basics p {
@@ -956,6 +960,19 @@ h1 {
 
 .product-basics a {
     font-size: 0.75rem;
+}
+
+.product-basics-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-basics {
+    padding: 2em;
+    flex-grow: 2;
+    padding-top: 0;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .button-qty {
@@ -991,20 +1008,7 @@ h1 {
     transition: background-color 0.3s ease-out;
 }
 
-
 /* ------------- Product Details Area -------------- */
-
-.details-flex {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: stretch;
-    align-items: stretch;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-top: 3em;
-}
 
 .product-about {
     display: block;
@@ -1041,6 +1045,11 @@ td {
     padding: 13px;
     border-bottom: 1px solid black;
     text-align: left;
+}
+
+.table-title {
+    color: #542437;
+    font-family: "moonbold", arial, sans-serif; 
 }
 
 .product-review {
