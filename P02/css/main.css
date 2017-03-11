@@ -6,6 +6,7 @@
     Main CSS sheet for the website
 */
 
+
 /*
     COLORS
     Light Gray: #EAEAEA
@@ -85,7 +86,7 @@ h3, h4 {
     letter-spacing: 1px;
 }
 
-h3{
+h3 {
     font-size: 1.4em;
 }
 
@@ -379,8 +380,8 @@ input[type="date"]:focus {
     border-radius: 9px;
 }
 
-.review-post{
-    padding: 2em;
+.review-post {
+    padding: 3em;
     border: 2px solid #EAEAEA;
     margin: 2em 5em;
     background: #F7F7F7;
@@ -463,6 +464,7 @@ input[type="date"]:focus {
     color: #C02943;
 }
 
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .cart-flex-item {
@@ -485,11 +487,11 @@ input[type="date"]:focus {
     padding: 0em 1em;
 }
 
-.shipping-table-title{
-  color: #EAEAEA;
-  font-size: 0.8em;
-  letter-spacing: 2px;
-  padding: 0em 1em;
+.shipping-table-title {
+    color: #EAEAEA;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    padding: 0em 1em;
 }
 
 .cart-flex-item.totals {
@@ -504,14 +506,14 @@ input[type="date"]:focus {
     background-color: white;
 }
 
-.cart-item-display.confirm {
-}
+.cart-item-display.confirm {}
 
 .cart-flex-item img {
     display: block;
     width: 100px;
     border-radius: 10px;
 }
+
 
 /* ~~~~~~~~~~~~~ */
 
@@ -541,20 +543,18 @@ input[type="date"]:focus {
     flex-grow: 2;
 }
 
-
-.quantity{
+.quantity {
     flex-grow: 2;
 }
 
-.quantity select.quant{
-    padding:0.3em;
-    margin:0 4em;
+.quantity select.quant {
+    padding: 0.3em;
+    margin: 0 4em;
 }
 
-.quantity p{
-    margin:1em;
+.quantity p {
+    margin: 1em;
 }
-
 
 .prodName {
     padding-left: 1em;
@@ -578,16 +578,18 @@ input[type="date"]:focus {
     border-top: 2px solid #EAEAEA;
 }
 
-.edit{
+.edit {
     flex-grow: 1;
     padding: 2em 0em;
     text-align: center;
 }
 
-.edit button{
-    padding:0.5em 0.8em;
+.edit button {
+    padding: 0.5em 0.8em;
     font-size: 0.5em;
 }
+
+
 /* ~~~~Button placement styling~~~~~~~ */
 
 .procceed-flex {
@@ -599,7 +601,7 @@ input[type="date"]:focus {
     justify-content: center;
 }
 
-.return-buttons{
+.return-buttons {
     padding-bottom: 5em;
 }
 
@@ -632,8 +634,7 @@ input[type="date"]:focus {
     margin: 0em 5em;
 }
 
-.cart-shipping-item{
-}
+.cart-shipping-item {}
 
 .cart-shipping-title {
     display: flex;
@@ -645,7 +646,7 @@ input[type="date"]:focus {
     text-align: center;
 }
 
-.cart-shipping-title#ship-title{
+.cart-shipping-title#ship-title {
     text-align: left;
     padding: 1em 0em;
 }
@@ -658,14 +659,13 @@ input[type="date"]:focus {
     font-size: 0.7em;
 }
 
-#address, #exp-date{
+#address, #exp-date {
     width: 20em;
 }
 
 .confirmed-info {
     padding-top: 3em;
     text-align: center;
-
 }
 
 .confirmed-info h3 {
@@ -686,11 +686,12 @@ input[type="date"]:focus {
     padding-top: 2em;
 }
 
+
 /* PRODUCT PAGE CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .product-name {
     margin-bottom: 0;
-    text-align:center;
+    text-align: center;
     padding-top: 1.3em;
 }
 
@@ -759,6 +760,7 @@ input[type="date"]:focus {
     text-decoration-color: #C02943;
 }
 
+
 /* -------------------- FAQ Page ----------------- */
 
 .faq-flex {
@@ -784,12 +786,11 @@ input[type="date"]:focus {
 
 .faq-list {
     padding: 2.5rem 0rem 3rem 0rem;
-    background:#542437;
-
+    background: #542437;
 }
 
 .faq-list li {
-    padding: 0.8em 5em ;
+    padding: 0.8em 5em;
     text-decoration: none;
     font-family: "moonbold", arial, sans-serif;
     list-style: none;
@@ -812,7 +813,7 @@ input[type="date"]:focus {
 .faq-answers h2 {
     max-width: 45rem;
     padding-left: 0;
-    padding-top:2em;
+    padding-top: 2em;
     font-family: "moonbold", arial, sans-serif;
     font-size: 1rem;
     text-align: left;
@@ -877,8 +878,8 @@ h1 {
     background-color: white;
 }
 
-.events h1{
-  padding: 2em 0em;
+.events h1 {
+    padding: 2em 0em;
 }
 
 .events-flex {
@@ -983,7 +984,7 @@ h1 {
 }
 
 .product-basics {
-    padding: 2em;
+    padding: 5em 2em;
     flex-grow: 2;
     padding-top: 0;
     padding-left: 5em;
@@ -1012,6 +1013,10 @@ h1 {
     text-decoration: none;
 }
 
+.button-default.adding{
+  margin: 0em 1.3em;
+}
+
 .button-qty:active {
     display: inline-block;
     color: white;
@@ -1023,6 +1028,7 @@ h1 {
     transition: background-color 0.3s ease-out;
 }
 
+
 /* ------------- Product Details Area -------------- */
 
 .product-about {
@@ -1031,14 +1037,14 @@ h1 {
 }
 
 .product-about h1 {
-    padding-top: 3rem;
+    padding-top: 3em;
     font-size: 1.5rem;
+    padding-bottom: 1em;
 }
 
 .product-about p {
-    padding-right: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 5rem;
+    padding: 2em 10em;
+    padding-bottom: 4em;
 }
 
 .product-specs {
@@ -1047,8 +1053,9 @@ h1 {
 }
 
 .product-specs h1 {
-    padding-top: 3rem;
+    padding-top: 3em;
     font-size: 1.5rem;
+    padding-bottom: 1em;
 }
 
 table {
@@ -1073,7 +1080,8 @@ td {
 }
 
 .product-review h1 {
-    padding-top: 1em;
+    padding-top: 3em;
+    padding-bottom: 1em;
     font-size: 1.5rem;
 }
 
@@ -1083,8 +1091,7 @@ td {
     padding: 0;
 }
 
-.product-review p {
-}
+.product-review p {}
 
 .review-date {
     color: #2E2633;
@@ -1092,6 +1099,7 @@ td {
     font-family: "open_sansregular", arial, sans-serif;
     font-size: 0.8em;
 }
+
 
 /* -------------- Citations page ------------- */
 
