@@ -265,7 +265,7 @@ p {
 }
 
 #footer a:hover, a:focus {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .contact-form {
